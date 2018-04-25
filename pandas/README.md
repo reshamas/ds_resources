@@ -8,6 +8,8 @@ pd.options.display.float_format = '{:20,.0f}'.format
 
 #### Basic
 
+Ian London:  https://github.com/IanLondon/pandas_tricks  
+
 Greg Reda has a an introduction to Pandas on his website:  
 
 1. [Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)

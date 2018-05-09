@@ -10,6 +10,9 @@
 
 [Big-O Algorithm](http://bigocheatsheet.com/)
 
+## R Stats
+https://www.rstudio.com/resources/cheatsheets/
+
 ## Pandas
 * [Pandas Cheat Sheet](https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
 * [Pandas for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience+(1).pdf)

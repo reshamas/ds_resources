@@ -23,6 +23,8 @@ https://www.rstudio.com/resources/cheatsheets/
 
 [Python Cheat Sheet](https://s3.amazonaws.com/michael-kennedy/downloads/DM/python_cheat_sheet.pdf)
 
+[Python 2 to Python 3](python2python3.pdf)
+
 [Python 2.4 Quick Reference Card](http://www.cheat-sheets.org/saved-copy/PQRC-2.4-A4-latest.pdf)
 
 [Python 2.7 Quick Sheets](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)

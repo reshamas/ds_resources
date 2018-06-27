@@ -10,6 +10,9 @@
 
 [Big-O Algorithm](http://bigocheatsheet.com/)
 
+### Anaconda (Conda)
+[Conda Cheat Sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)
+
 ## R Stats
 https://www.rstudio.com/resources/cheatsheets/
 

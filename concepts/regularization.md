@@ -33,7 +33,7 @@ They involve imposing a certain kind of penalty for choosing lines whose coeffic
 
 ---
 
-## Why Two Different Kinds of Regularization? (https://msdn.microsoft.com/en-us/magazine/dn904675.aspx)
+## [Why Two Different Kinds of Regularization?](https://msdn.microsoft.com/en-us/magazine/dn904675.aspx)
 
 L1 and L2 regularization are similar. Which is better? The bottom line is that even though there are some theory guidelines about which form of regularization is better in certain problem scenarios, in my opinion, in practice you must experiment to find which type of regularization is better, or whether using regularization at all is better.
 

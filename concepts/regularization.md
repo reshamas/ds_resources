@@ -49,6 +49,9 @@ To summarize, L1 regularization sometimes has a nice side effect of pruning out 
 ### Elastic Net
 Elastic Net combines L1 and L2
 
+
+![regularization](images/l1_l2_regularization.png) 
+
 ## Resources
 - [Test Run - L1 and L2 Regularization for Machine Learning](https://msdn.microsoft.com/en-us/magazine/dn904675.aspx)
 

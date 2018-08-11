@@ -6,6 +6,9 @@ Two methods are well known for scaling data:
  * Normalization - scales all numerical variables in the range [0,1]
  * Standardization - tranforms values to have zero mean and unit variance.  X ~ N(0,1)
 
+## Scaling and Gradient Descent
+- Scaling speeds up gradient descent by making it require fewer iterations to get to a good solution.
+
 ## Normalization
 Normalization, which scales all numeric variables in the range [0,1]. One possible formula is given by `(x - x_min)/(x_max - x_min)`
 

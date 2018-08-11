@@ -14,8 +14,8 @@
 ## Entropy
 - entropy is an expression of the disorder, or randomness of a system, or of the lack of information about it. The concept of entropy plays a central role in information theory.
 - A branch with entropy of 0 is a leaf node.
-- A branch with entropy more than 0 needs further splitting.
-- 
+- A branch with entropy more than 0 needs further splitting
+
 
 ## Resources
 - [Bagging, Boosting, Stacking](https://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning)

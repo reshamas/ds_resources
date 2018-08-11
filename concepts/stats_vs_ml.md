@@ -18,7 +18,7 @@
  * Machine Learners
     * want to build algorithms that predict, classify and cluster with the most accuracy
 
---
+---
 
 ![](images/stats_vs_ml.png)
 

@@ -1,5 +1,15 @@
 # KNN 
 
+## Initial Values
+- preferred method for choosing the initial values for k-means clustering is:  K-means ++
+
+## Linkage
+Single, complete, average, Ward (review types)
+
+## Curse of Dimensionality
+curse of dimensionality is a problem because, as the number of dimensions increases, it's likely that the closest points aren't much closer than average, meaning two points being close doesn't mean much.
+
+
 ## Distance Metrics
 
 Some of the distance metrics used in KNN are: 

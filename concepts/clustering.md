@@ -2,6 +2,7 @@
 
 ## Matrix Decomposition
 - Matrix decomposition, also known as matrix factorization, involves describing a given matrix using its constituent elements.
+- is a matrix decomposition method for reducing a matrix to its constituent parts in order to make certain subsequent matrix calculations simpler
 
 ## SVD (Singular-value Decomposition)
 - Perhaps the most known and widely used matrix decomposition method is the Singular-Value Decomposition, or SVD. 

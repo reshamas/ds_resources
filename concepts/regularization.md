@@ -7,7 +7,8 @@
 - The ideas behind regularization are a bit tricky to explain, not because they’re difficult, but rather because there are several interrelated ideas
 
 ## L1 and L2
-They involve imposing a certain kind of penalty for choosing lines whose coefficients are large
+- They involve imposing a certain kind of penalty for choosing lines whose coefficients are large
+- Features scaling (i.e. standardization) is necessary before regularization as it is scale-dependent
 
 ### Lasso (L1)
 - Robert Tibshirani introduced Lasso in order to improve the prediction accuracy and interpretability of regression models by **altering the model fitting process to select only a subset of the provided covariates for use in the final model rather than using all of them.**

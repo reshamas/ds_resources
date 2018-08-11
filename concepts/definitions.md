@@ -1,5 +1,11 @@
 # Definitions 
 
+### AUC
+AUC of a random binary classifier is:  0.50
+
+### ROC
+
+
 ### Entropy
 
 

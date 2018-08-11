@@ -1,4 +1,6 @@
-# What is difference between normalization and standardization?
+# Scaling:  Normalization and Standardization
+
+## What is difference between normalization and standardization?
 
 Two methods are well known for scaling data:
  * Normalization - scales all numerical variables in the range [0,1]

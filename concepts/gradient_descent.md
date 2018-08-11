@@ -15,6 +15,7 @@
 ## MINI-BATCH Gradient Descent
 - uses a small sample of the dataset to compute the gradient of the cost function
 
-
+## Scaling and Gradient Descent
+- Scaling speeds up gradient descent by making it require fewer iterations to get to a good solution.
 
 

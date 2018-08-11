@@ -1,4 +1,10 @@
-# Decision Tree
+# Decision Trees
+
+## About
+- simple to understand and interpret
+- they are scale-invariant
+- prone to overfitting
+
 
 ## Single
 - use complete training dataset

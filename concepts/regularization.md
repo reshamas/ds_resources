@@ -14,6 +14,8 @@
 - Robert Tibshirani introduced Lasso in order to improve the prediction accuracy and interpretability of regression models by **altering the model fitting process to select only a subset of the provided covariates for use in the final model rather than using all of them.**
 - penalty function is based on absolute value
 - does not have a unique solution
+- results in **sparse weight vectors**
+- leads to sparse solutions in which most coefficients are zero
 
 #### L1 Limitations
 - in the "large p, small n" case (high-dimensional data with few examples), the LASSO selects at most n variables before it saturates.

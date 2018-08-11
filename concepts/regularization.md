@@ -46,9 +46,10 @@ So, it would seem that L1 regularization is better than L2 regularization. Howev
 
 To summarize, L1 regularization sometimes has a nice side effect of pruning out unneeded features by setting their associated weights to 0.0 but L1 regularization doesn’t easily work with all forms of training. L2 regularization works with all forms of training, but doesn’t give you implicit feature selection. In practice, you must use trial and error to determine which form of regularization (or neither) is better for a particular problem.
 
-### Elastic Net
+## Elastic Net
 Elastic Net combines L1 and L2
 
+## Loss Functions
 
 ![regularization](images/l1_l2_regularization.png) 
 

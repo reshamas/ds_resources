@@ -2,16 +2,13 @@
 
 [List of Cheat Sheets](https://unsupervisedmethods.com/cheat-sheet-of-machine-learning-and-python-and-math-cheat-sheets-a4afe4e791b6)
 
-[Cheat Sheets for Machine Learning and Deep Learning](https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5)
-
-[Keras Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
-
-[Conda Cheat Sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)  
-
 [Big-O Algorithm](http://bigocheatsheet.com/)
 
-### Anaconda (Conda)
+## Anaconda (Conda)
 [Conda Cheat Sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)
+
+## Data Visualization
+[DataViz Cheatsheet](https://policyviz.com/2018/08/07/dataviz-cheatsheet/)
 
 ## R Stats
 https://www.rstudio.com/resources/cheatsheets/
@@ -20,6 +17,11 @@ https://www.rstudio.com/resources/cheatsheets/
 * [Pandas Cheat Sheet](https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
 * [Pandas for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience+(1).pdf)
 * [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+
+## Deep Learning
+[Cheat Sheets for Machine Learning and Deep Learning](https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5)
+
+[Keras Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
 
 
 ## Python References

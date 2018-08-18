@@ -27,3 +27,5 @@ Pareto Principle, also known as the 80/20 rules, (the law of the vital few, and 
 
 ### LOESS  (locally weighted scatterplot smoothing)
 - LOWESS (Locally Weighted Scatterplot Smoothing), sometimes called LOESS (locally weighted smoothing), is a popular tool used in regression analysis that creates a smooth line through a timeplot or scatter plot to help you to see relationship between variables and foresee trends.
+
+### SSD (Single Shot Multibox Detector)

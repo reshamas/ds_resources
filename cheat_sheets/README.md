@@ -10,6 +10,9 @@
 ## Data Visualization
 [DataViz Cheatsheet](https://policyviz.com/2018/08/07/dataviz-cheatsheet/)
 
+## Machine Learning
+[ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+
 ## R Stats
 https://www.rstudio.com/resources/cheatsheets/
 

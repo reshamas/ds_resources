@@ -2,13 +2,17 @@
 
 ## Terms
 
-#### Batch Normalization (BN)
+### Batch Normalization (BN)
 - speeds up training by by preventing significant shifts in the distribution of inputs to each layer
 - BN also allows us to significantly increase the learning rate
 - BN acts like a **regularizer** and removes the need for **dropout** and **L2 regularization**
 - batch regularization largely removes the need for for photometric distortions, and we can expose the network to more "real" images during the training process
 
-#### FC = fully connected
+### FC = fully connected
+
+### Learning Rate Adaptation
+
+#### AdaGrad
 
 
 ## References

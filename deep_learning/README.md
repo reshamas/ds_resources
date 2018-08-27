@@ -11,6 +11,14 @@
 ### FC = fully connected
 
 ---
+# Learning Rate Algorithms
+
+## Gradient Descent
+
+#### Mini-batch Gradient Descent
+
+#### Mini-batch Gradient with Momentum
+
 ## (popular) Adaptive Learning Rate Algorithms
 Concept:  the optimal learning rate is appropriately modified over the span of learning to achieve good convergence properties.
 
@@ -25,7 +33,8 @@ Concept:  the optimal learning rate is appropriately modified over the span of l
     - allows us to "toss out" measurements we made a long time ago
 - has been shown to be a highly effective optimizer for deep neural networks; and a default choice for many seasoned practitioners
 
-
+### Adam
+- think of it as a variant combination of RMSProp and momentum
 
 ---
 ### Residual / Skip Connections
@@ -38,6 +47,6 @@ Residual neural networks do this by utilizing skip connections or short-cuts to 
 
 
 
-
+---
 ## References
 - book: [Fundamentals of Deep Learning](http://shop.oreilly.com/product/0636920039709.do)

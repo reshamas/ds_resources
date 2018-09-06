@@ -1,5 +1,9 @@
 
 # Markdown
+
+## Checkboxes
+- [checkboxes (markdown)](https://github.com/westurner/wiki/wiki/Checkboxes--markdown)
+
 - [Markdown in my LaTeX!](http://kesdev.com/you-got-latex-in-my-markdown/)
 
 #### text

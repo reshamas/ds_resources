@@ -13,6 +13,7 @@
 
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 - [Cancer Data:  Project Data Sphere](https://projectdatasphere.org/projectdatasphere/html/home)
+- [Billion Prices Project](http://www.thebillionpricesproject.com)
 
 ## Data Science Interview Questions
 

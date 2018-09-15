@@ -58,7 +58,12 @@ Status: Downloaded newer image for kaggle/python:latest
 ~  master ✗                                                                           ◒  
 ▶ 
 ```
+### Remove an Image
+```bash
+docker rmi <image_name>
+```
 
+---
 ### Get Container's IP Address
 ```bash
 docker-machine ip default
@@ -102,6 +107,8 @@ http://88.888.88.100:8888/
 [video:  Docker for Data Scientists](https://civisanalytics.com/blog/data-science/2016/05/11/strata-2016-talk/)
 
 [Docker documentation:  Images](https://civisanalytics.com/blog/data-science/2016/05/11/strata-2016-talk/)
+
+Docker Hub:  hub.docker.com
 
 ---
 

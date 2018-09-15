@@ -66,6 +66,11 @@ docker-machine ip default
 ```bash
 docker ps -a
 ```
+### Rename an Image
+```bash
+docker rename <containerID> <new_name>
+```
+
 ### Get Docker IP Address
 Note:  Use the CONTAINER ID value:
 ```bash

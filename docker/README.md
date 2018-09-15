@@ -7,6 +7,8 @@ See what version of Docker is running
 ▶ docker -v
 Docker version 1.12.0, build 8eab29e
 ```
+## Images
+Images are processes that create an environment.  Can delete an environment.
 
 ### Finding Images [on Docker Hub]
 [Docker Hub](https://hub.docker.com/)  

@@ -26,6 +26,15 @@ https://www.rstudio.com/resources/cheatsheets/
 
 [Keras Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
 
+### @afshinea Shared this set of illustrated machine learning cheat sheets from Stanford's CS 229 class:
+
+- Deep Learning: http://stanford.io/2BsQ91Q  
+
+- Supervised Learning: http://stanford.io/2nRlxxp  
+
+- Unsupervised Learning: http://stanford.io/2MmP6FN  
+
+- Tips and tricks: http://stanford.io/2MEHwFM 
 
 ## Python References
 

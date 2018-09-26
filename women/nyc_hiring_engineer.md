@@ -20,3 +20,6 @@ Recommend reaching out to these groups, as a start:
 ## Reference
 
 * https://twitter.com/drob/status/980871638102224896
+
+
+http://cnxstream.com/ghc-18-livestream/?live=1&lid=1029

@@ -3,6 +3,7 @@
 
 # Python Resources
 - [Automate the Boring Stuff](https://automatetheboringstuff.com)
+- [Chris Albon: Python](https://chrisalbon.com)
 
 # Data Science Resources
 

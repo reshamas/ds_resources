@@ -1,11 +1,13 @@
 # Helpful Resources (in general)
+
+## Publishing
 - [Asciidoctor](https://asciidoctor.org) is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. 
 
-# Python Resources
+## Python Resources
 - [Automate the Boring Stuff](https://automatetheboringstuff.com)
 - [Chris Albon: Python](https://chrisalbon.com)
 
-# Data Science Resources
+## Data Science Resources
 
 - [Cheat Sheets](cheat_sheets/)
 - [Markdown](markdown/)

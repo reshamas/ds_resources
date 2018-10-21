@@ -20,6 +20,7 @@
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 - [Cancer Data:  Project Data Sphere](https://projectdatasphere.org/projectdatasphere/html/home)
 - [Billion Prices Project](http://www.thebillionpricesproject.com)
+- [Healthcare datasets](http://www.ideal.ece.utexas.edu/courses/ee380l/Health-Care-Data-Sets.xls) Excel sheet, download required
 
 ## Data Science Interview Questions
 

@@ -28,3 +28,10 @@ FROM people;
 SELECT DISTINCT language
 FROM films;
 ```
+
+### Count number of rows in a table
+```sql
+SELECT COUNT(*)
+FROM people;
+```
+

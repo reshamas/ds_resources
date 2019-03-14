@@ -65,5 +65,12 @@ SELECT name
 FROM companies
 WHERE name LIKE 'Data%';
 ```
+Where the second letter of name has an "r"
+```sql
+SELECT name
+FROM people
+WHERE name LIKE '_r%';
+```
+
 
 

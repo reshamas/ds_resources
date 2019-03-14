@@ -35,3 +35,11 @@ SELECT COUNT(*)
 FROM people;
 ```
 
+### `BETWEEN`
+Checking for ranges like this is very common, so in SQL the BETWEEN keyword provides a useful shorthand for filtering values within a specified range. This query is equivalent to the one above:
+```sql
+SELECT title
+FROM films
+WHERE release_year
+BETWEEN 1994 AND 2000;
+```

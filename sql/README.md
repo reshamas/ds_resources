@@ -58,4 +58,12 @@ FROM people
 WHERE deathdate IS NULL;
 ```
 
+### `LIKE` and `NOT LIKE`
+The % wildcard will match zero, one, or many characters in text. For example, the following query matches companies like 'Data', 'DataC' 'DataCamp', 'DataMind', and so on:
+```sql
+SELECT name
+FROM companies
+WHERE name LIKE 'Data%';
+```
+
 

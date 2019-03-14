@@ -50,3 +50,12 @@ SELECT name
 FROM kids
 WHERE age IN (2, 4, 6, 8, 10);
 ```
+
+### `IS NULL` ---> missing
+```sql
+SELECT name
+FROM people
+WHERE deathdate IS NULL;
+```
+
+

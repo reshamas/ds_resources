@@ -43,3 +43,10 @@ FROM films
 WHERE release_year
 BETWEEN 1994 AND 2000;
 ```
+
+### `WHERE IN`
+```sql
+SELECT name
+FROM kids
+WHERE age IN (2, 4, 6, 8, 10);
+```

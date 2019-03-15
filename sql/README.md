@@ -78,10 +78,16 @@ WHERE name LIKE '_r%';
 ---
 
 ## Aggregate Functions
+
+### `AVG`, `SUM`, `MIN`
 ```sql
 SELECT AVG(budget)
 FROM films;
 ```
+
+### `WHERE`
+
+
 
 
 

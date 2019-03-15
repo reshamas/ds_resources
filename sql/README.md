@@ -4,6 +4,8 @@
 - DataCamp course:  [Intro to SQL for Data Science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
 
 
+## `SELECT`ing columns
+
 ### Notes
 - Querying is an essential skill for a data scientist, since the data you need for your analyses will often live in databases.
 - In this query, SELECT and FROM are called keywords. In SQL, keywords are not case-sensitive, which means you can write the same query as:
@@ -34,6 +36,8 @@ FROM films;
 SELECT COUNT(*)
 FROM people;
 ```
+
+## Filtering columns
 
 ### `BETWEEN`
 Checking for ranges like this is very common, so in SQL the BETWEEN keyword provides a useful shorthand for filtering values within a specified range. This query is equivalent to the one above:
@@ -71,6 +75,14 @@ SELECT name
 FROM people
 WHERE name LIKE '_r%';
 ```
+---
+
+## Aggregate Functions
+```sql
+SELECT AVG(budget)
+FROM films;
+```
+
 
 
 

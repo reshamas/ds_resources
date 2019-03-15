@@ -100,6 +100,13 @@ This gives you the result you would expect: 1.333.
 SELECT (4.0 / 3.0) AS result;
 ```
 
+## `AS` aliasing (renaming)
+```sql
+SELECT MAX(budget) AS max_budget,
+       MAX(duration) AS max_duration
+FROM films;
+```
+
 
 
 

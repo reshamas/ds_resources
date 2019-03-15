@@ -132,6 +132,16 @@ SELECT (MAX(release_year) - MIN(release_year))/10 AS number_of_decades
 FROM films;
 ```
 
+## Sorting, Grouping and Joins
+
+### `ORDER BY`
+By default ORDER BY will sort in ascending order. If you want to sort the results in descending order, you can use the DESC keyword. For example,
+
+```sql
+SELECT title
+FROM films
+ORDER BY release_year DESC;
+```
 
 
 

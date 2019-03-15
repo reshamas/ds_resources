@@ -108,6 +108,14 @@ SELECT MAX(budget) AS max_budget,
 FROM films;
 ```
 
+## Subtraction
+```sql
+SELECT title,
+       gross-budget AS net_profit
+FROM films;
+```
+
+
 
 
 

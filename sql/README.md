@@ -87,6 +87,18 @@ FROM films;
 
 ### `WHERE`
 
+---
+
+## ARITHMETIC
+However, the following gives a result of 1:
+```sql
+SELECT (4 / 3);
+```
+
+This gives you the result you would expect: 1.333.
+```sql
+SELECT (4.0 / 3.0) AS result;
+```
 
 
 

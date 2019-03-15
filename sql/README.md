@@ -101,6 +101,7 @@ SELECT (4.0 / 3.0) AS result;
 ```
 
 ## `AS` aliasing (renaming)
+Aliases are helpful for making results more readable!
 ```sql
 SELECT MAX(budget) AS max_budget,
        MAX(duration) AS max_duration

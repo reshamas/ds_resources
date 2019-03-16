@@ -191,5 +191,6 @@ female	19
 
 Commonly, `GROUP BY` is used with aggregate functions like `COUNT()` or `MAX()`. Note that `GROUP BY` always goes after the `FROM` clause!
 
+**Note:**  A word of warning: SQL will return an error if you try to `SELECT` a field that is not in your `GROUP BY` clause without using it to calculate some kind of value about the entire group.
 
 

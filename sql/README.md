@@ -176,6 +176,14 @@ FROM people
 ORDER BY birthdate, name;
 ```
 
+### `GROUP BY`
+allows you to group a result by one or more columns, like so:
+```sql
+SELECT sex, count(*)
+FROM employees
+GROUP BY sex;
+```
+
 
 
 

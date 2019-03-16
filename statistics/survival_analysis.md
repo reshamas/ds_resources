@@ -82,4 +82,23 @@ summary(sobj)
 str(sobj)
 ```
 
+```r
+# Load the UnempDur data
+data(UnempDur, package = "Ecdat")
+
+# Count censored and uncensored data
+cens_employ_ft <- table(UnempDur$censor1)
+cens_employ_ft
+
+# Create barplot of censored and uncensored data
+barplot(cens_employ_ft)
+
+# Create Surv-Object
+sobj <- Surv(UnempDur$spell, UnempDur$censor1)
+
+# Look at 10 first elements
+sobj[1:10]
+```
+
+
 

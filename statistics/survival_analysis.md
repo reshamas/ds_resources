@@ -68,4 +68,18 @@ barplot(num_cens)
 help(GBSG2, package = "TH.data")
 ```
 
+```
+# Create Surv-Object
+sobj <- Surv(GBSG2$time, GBSG2$cens)
+
+# Look at 10 first elements
+sobj[1:10]
+
+# Look at summary
+summary(sobj)
+
+# Look at structure
+str(sobj)
+```
+
 

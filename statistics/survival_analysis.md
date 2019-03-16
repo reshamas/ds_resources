@@ -31,7 +31,7 @@ data(GBSG2, package = "TH.data")
 help(UnempDur, package = "Ecdat")
 ```
 
-## Sample data
+## Creating `Surv` objects
 ```r
 time <- c(5, 6, 2, 4, 4)
 event <- c(1, 0, 0, 1, 1)
@@ -39,6 +39,20 @@ event <- c(1, 0, 0, 1, 1)
 library("survival")
 Surv(time, event)
 ```
+
+## R packages
+
+#### for analyses:
+```r
+library("survival")
+```
+
+#### for pretty visualizations:
+```r
+library("survminer")
+```
+
+
 
 
 

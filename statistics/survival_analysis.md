@@ -100,5 +100,11 @@ sobj <- Surv(UnempDur$spell, UnempDur$censor1)
 sobj[1:10]
 ```
 
+---
+## Survival Function
+- Theory:  `S(t) = 1 - F(t) = P(T > t)`
+- Interpretation:  Probability that duration is longer than `t`
+
+
 
 

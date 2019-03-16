@@ -143,5 +143,23 @@ FROM films
 ORDER BY release_year DESC;
 ```
 
+```sql
+SELECT title
+FROM films
+WHERE release_year IN (2000, 2012)
+ORDER BY release_year;
+```
+```sql
+SELECT *
+FROM films
+WHERE release_year NOT IN (2015)
+ORDER BY duration;
+```
+```sql
+SELECT title, gross
+FROM films
+WHERE title LIKE 'M%'
+ORDER BY title;
+```
 
 

@@ -53,8 +53,19 @@ library("survminer")
 ```
 
 
+## Censoring
+1 = event occurred  
 
+```r
+# Count censored and uncensored data
+num_cens <- table(GBSG2$cens)
+num_cens
 
+# Create barplot of censored and uncensored data
+barplot(num_cens)
 
+# Use help() to look at cens
+help(GBSG2, package = "TH.data")
+```
 
 

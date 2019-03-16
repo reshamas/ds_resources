@@ -181,7 +181,8 @@ Now you know how to sort results! Often you'll need to aggregate results. For ex
 ```sql
 SELECT sex, count(*)
 FROM employees
-GROUP BY sex;
+GROUP BY sex
+ORDER BY count DESC;
 ```
 ```text
 sex	count
@@ -193,4 +194,5 @@ Commonly, `GROUP BY` is used with aggregate functions like `COUNT()` or `MAX()`.
 
 **Note:**  A word of warning: SQL will return an error if you try to `SELECT` a field that is not in your `GROUP BY` clause without using it to calculate some kind of value about the entire group.
 
+**Note:**  `ORDER BY` always goes after `GROUP BY`
 

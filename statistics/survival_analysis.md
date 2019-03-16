@@ -8,10 +8,39 @@
   - delivery of letter
   - how long to wait for cab to arrive
   - 
+- we can't use linear models because:
+  - duration times are always **positive**
+  - need to work with distributions 
+  - linear model assumes a normal distribution which is not appropriate for positive outcomes
+- different **measures** are of interest
+  - **hazard functions**
+- **censoring** is almost always an issue
+  - **right censoring** is the most common type of censoring in survival analysis
+- 
   
+## Weibull Distribution
+
   
+---
+
+## Getting the data
+
 ```r
 # GBSG2: time to death of 686 breast cancer patients
 data(GBSG2, package = "TH.data")
 help(UnempDur, package = "Ecdat")
 ```
+
+## Sample data
+```r
+time <- c(5, 6, 2, 4, 4)
+event <- c(1, 0, 0, 1, 1)
+
+library("survival")
+Surv(time, event)
+```
+
+
+
+
+

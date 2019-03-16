@@ -196,3 +196,54 @@ Commonly, `GROUP BY` is used with aggregate functions like `COUNT()` or `MAX()`.
 
 **Note:**  `ORDER BY` always goes after `GROUP BY`
 
+```sql
+SELECT release_year, AVG(duration)
+FROM films
+GROUP BY release_year;
+```
+```sql
+SELECT imdb_score, COUNT(*)
+FROM reviews
+GROUP BY imdb_score;
+```
+
+### `HAVING` --> used for filtering
+This means that if you want to filter based on the result of an aggregate function, you need another way! That's where the HAVING clause comes in. For example,
+```sql
+SELECT release_year
+FROM films
+GROUP BY release_year
+HAVING COUNT(title) > 10;
+```
+NOT VALID:  cannot use **aggregate** functions in `WHERE` clause:  
+```sql
+WHERE COUNT(title) > 10;
+```
+
+#### Practice
+```sql
+SELECT release_year, AVG(budget) AS avg_budget, AVG(gross) AS avg_gross
+FROM films
+WHERE release_year > 1990
+GROUP BY release_year
+HAVING AVG(budget) > 60000000
+ORDER BY avg_gross DESC;
+```
+
+```sql
+-- select country, average budget, average gross
+SELECT country, AVG(budget) AS avg_budget, AVG(gross) AS avg_gross
+-- from the films table
+FROM films
+-- group by country 
+GROUP BY country
+-- where the country has more than 10 titles
+HAVING COUNT(country) > 10
+-- order by country
+ORDER BY COUNTRY
+-- limit to only show 5 results
+LIMIT 5;
+```
+
+
+

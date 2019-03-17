@@ -108,6 +108,6 @@ sobj[1:10]
 ## Part 2:  Estimation of Survival Curves
 
 ### Kaplan-Meier Estimate
-
+![f1.png](../images/km_estimate.png)
 
 

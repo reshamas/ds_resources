@@ -103,9 +103,11 @@ sobj[1:10]
 ---
 ## Survival Function
 - Theory:  `S(t) = 1 - F(t) = P(T > t)`
-- Interpretation:  Probability that duration is longer than `t`
+- Interpretation:  Probability that duration is longer than `t` [for any point in time]
 
 ## Part 2:  Estimation of Survival Curves
+
+### Kaplan-Meier Estimate
 
 
 

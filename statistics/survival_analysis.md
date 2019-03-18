@@ -176,5 +176,9 @@ List of 13
 > 
 ```
 
+Note:  the Kaplan-Meier curve drops **when a patient dies.**  
+
+
+
 
 

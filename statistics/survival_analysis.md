@@ -1,4 +1,5 @@
-# Survival Analysis
+# Part 1:  What is survival analysis?
+
 
 - DataCamp course:  [Survival Analysis in R](https://www.datacamp.com/courses/survival-analysis-in-r)
 - survival analysis is:  **time to event data**
@@ -101,8 +102,11 @@ sobj[1:10]
 ```
 
 ---
+# Part 2:  Estimation of Survival Curves
+
 ## Survival Function
 - Theory:  `S(t) = 1 - F(t) = P(T > t)`
+- `F(t)` is the cumulative distribution function
 - Interpretation:  Probability that duration is longer than `t` [for any point in time]
 
 ## Part 2:  Estimation of Survival Curves

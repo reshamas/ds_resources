@@ -182,6 +182,58 @@ List of 13
 
 Note:  the Kaplan-Meier curve drops **when a patient dies.**  
 
+---
+
+## Understanding and Visualizing Kaplan-Meier Curves
+
+```
+library(survminer)
+ggsurvplot(fit)
+
+ggsurvplot(
+  fit,
+  palette = NULL,
+  linetype = 1,
+  surv.median.line = "none",
+  risk.table = FALSE,
+  cumevents = FALSE,
+  cumcensor = FALSE,
+  tables.height = 0.25,
+  ...
+)
+```
+```
+ggsurvplot(
+  fit = km,
+  palette = "blue",
+  linetype = 1,
+  surv.median.line = "hv",    # hv = horizontal and vertical
+  risk.table = TRUE,
+  cumevents = TRUE,
+  cumcensor = TRUE,
+  tables.height = 0.1
+)
+```
+```
+# Create dancedat data
+dancedat <- data.frame(
+  name = c("Chris", "Martin", "Conny", "Desi", "Reni", "Phil", 
+    "Flo", "Andrea", "Isaac", "Dayra", "Caspar"),
+  time = c(20, 2, 14, 22, 3, 7, 4, 15, 25, 17, 12),
+  obs_end = c(1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0))
+
+# Estimate the survivor function pretending that all censored observations are actual observations.
+km_wrong <- survfit(Surv(time) ~ 1, data = dancedat)
+
+# Estimate the survivor function from this dataset via kaplan-meier.
+km <- survfit(Surv(time, obs_end) ~ 1, data = dancedat)
+
+# Plot the two and compare
+ggsurvplot_combine(list(correct = km, wrong = km_wrong))
+```
+
+
+  
 
 
 

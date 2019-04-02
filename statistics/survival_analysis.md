@@ -109,7 +109,6 @@ sobj[1:10]
 - `F(t)` is the cumulative distribution function
 - Interpretation:  Probability that duration is longer than `t` [for any point in time]
 
-## Part 2:  Estimation of Survival Curves
 
 ### Kaplan-Meier Estimate
 ![f1.png](../images/km_estimate.png)
@@ -275,8 +274,48 @@ wb <- survreg(Surv(time, cens) ~ 1, data = GBSG2)
 - to plot the survival function, let's create a grid for many quantiles
 ```r
 surv <- seq(.99, .01, by = -.01)
+
+t <- predict(wb, type="quantile", p = 1 - surv, newdata=data.frame(1) )
+
+head(data.frame(time = t, surv=surv) )
 ```
 
+```r
+# Weibull model
+wb <- survreg(Surv(time, cens) ~ 1, data=GBSG2)
+
+# Retrieve survival curve from model probabilities 
+surv <- seq(.99, .01, by = -.01)
+
+# Get time for each probability
+t <- predict(wb, type = "quantile", p = 1 - surv, newdata = data.frame(1))
+
+# Create data frame with the information
+surv_wb <- data.frame(time = t, surv = surv)
+
+# Look at first few lines of the result
+head(surv_wb)
+```
+
+### Visualizing a Weibull Model
+```r
+wb <- survreg(Surv(time, cens) ~ 1)
+
+# survival curve
+surv <- seq(.99, .01, by = -.01)
+t <- predict(wb, type="quantile", p=1-surv, newdata=data.frame(1))
+
+surv_wb <- data.frame(time=t, surv=surv, 
+                      upper = NA, lower = NA, std.err = NA)
+                      
+# plot
+ggsurvplot_df(fit = surv_wb, surv.geom = geom_line)
+```
+
+---
+# Part 3:  The Weibull Model
+
+                      
 
 
   

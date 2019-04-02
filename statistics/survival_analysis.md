@@ -255,9 +255,22 @@ ggsurvplot(km, risk.table = TRUE, surv.median.line = "hv")
   - has the ability to adjust for covariates and inferences
   
 ### Computing a Weibull Model in R
-- 
+- notice that `survreg` is used here instead of `survfit`
 ```
 wb <- survreg(Surv(time, event) ~ 1, data)
+```
+- to compute:  90% of patients survive beyond a certain time point:  
+```
+predict(wb, type="quantile", p = 1-0.9, newdata = data.frame(1) )
+       1
+384.9947
+```
+- `p = 1 - 0.9` because the distribution function is `1 - survival_function`
+- to conclude, 90% of patients survive more than 384 days
+
+### Computing the survival function from the Weibull Model
+```r
+wb <- survreg(Surv(time, cens) ~ 1, data = GBSG2)
 ```
 
 

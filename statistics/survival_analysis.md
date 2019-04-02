@@ -232,6 +232,35 @@ km <- survfit(Surv(time, obs_end) ~ 1, data = dancedat)
 ggsurvplot_combine(list(correct = km, wrong = km_wrong))
 ```
 
+See how ignoring censoring underestimates your friends' dancing stamina? **The correct analysis (red curve) shows that your friends actually dance longer than the incorrect blue curve suggests.**
+
+```
+# Kaplan-Meier estimate
+km <- survfit(Surv(time, cens)~ 1, data = GBSG2)
+
+# plot of the Kaplan-Meier estimate
+ggsurvplot(km)
+
+# add the risk table to plot
+ggsurvplot(km, risk.table = TRUE)
+
+# add a line showing the median survival time
+ggsurvplot(km, risk.table = TRUE, surv.median.line = "hv")
+```
+
+## The Weibull Model for Estimating Survival Curves
+- KM estimate is used mainly as a descriptive tool for looking at the data
+  - it estimates the survival curve with a step function
+- the Weibull model produces a survival curve that is not a step function but it is smooth
+  - has the ability to adjust for covariates and inferences
+  
+### Computing a Weibull Model in R
+- 
+```
+wb <- survreg(Surv(time, event) ~ 1, data)
+```
+
+
 
   
 

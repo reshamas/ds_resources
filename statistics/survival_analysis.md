@@ -186,7 +186,7 @@ Note:  the Kaplan-Meier curve drops **when a patient dies.**
 
 ## Understanding and Visualizing Kaplan-Meier Curves
 
-```
+```r
 library(survminer)
 ggsurvplot(fit)
 
@@ -202,7 +202,7 @@ ggsurvplot(
   ...
 )
 ```
-```
+```r
 ggsurvplot(
   fit = km,
   palette = "blue",
@@ -214,7 +214,7 @@ ggsurvplot(
   tables.height = 0.1
 )
 ```
-```
+```r
 # Create dancedat data
 dancedat <- data.frame(
   name = c("Chris", "Martin", "Conny", "Desi", "Reni", "Phil", 
@@ -256,11 +256,11 @@ ggsurvplot(km, risk.table = TRUE, surv.median.line = "hv")
   
 ### Computing a Weibull Model in R
 - notice that `survreg` is used here instead of `survfit`
-```
+```r
 wb <- survreg(Surv(time, event) ~ 1, data)
 ```
 - to compute:  90% of patients survive beyond a certain time point:  
-```
+```r
 predict(wb, type="quantile", p = 1-0.9, newdata = data.frame(1) )
        1
 384.9947
@@ -271,6 +271,10 @@ predict(wb, type="quantile", p = 1-0.9, newdata = data.frame(1) )
 ### Computing the survival function from the Weibull Model
 ```r
 wb <- survreg(Surv(time, cens) ~ 1, data = GBSG2)
+```
+- to plot the survival function, let's create a grid for many quantiles
+```r
+surv <- seq(.99, .01, by = -.01)
 ```
 
 

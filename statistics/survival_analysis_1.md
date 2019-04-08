@@ -312,8 +312,7 @@ surv_wb <- data.frame(time=t, surv=surv,
 ggsurvplot_df(fit = surv_wb, surv.geom = geom_line)
 ```
 
----
-# Part 3:  The Weibull Model
+
 
                       
 

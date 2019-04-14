@@ -7,6 +7,9 @@
 - [Automate the Boring Stuff](https://automatetheboringstuff.com)
 - [Chris Albon: Python](https://chrisalbon.com)
 
+## Machine Learning
+- [Andreas Mueller's Applied Machine Learning course](https://www.cs.columbia.edu/~amueller/comsw4995s19/schedule/), Columbia University, all videos and slides are avalable
+
 ## Data Science Resources
 
 - [Cheat Sheets](cheat_sheets/)

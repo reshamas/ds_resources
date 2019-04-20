@@ -7,6 +7,7 @@
 2. Git, GitHub and Testing
 3. Matplotlib and Visualization
 4. Intro to Supervised Learning
+5. Preprocessing
 
 
 

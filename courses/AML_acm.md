@@ -8,6 +8,7 @@
 3. Matplotlib and Visualization
 4. Intro to Supervised Learning
 5. Preprocessing
+  - https://github.com/amueller/COMS4995-s19/blob/master/slides/aml-05-preprocessing/aml-07-preprocessing.ipynb
 
 
 
@@ -50,6 +51,12 @@
 
 ### `StandardScaler` example
 - default test split is 25%  (https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+- `scaler.fit(X_train)` computes the **mean** and **standard deviation** on the training dataset
+- `X_train_scaled = scaler.transform(X_train)` this will subtract the mean, divide by the standard deviation; this is the scaled dataset
+- **Important:** 
+  - we only call `fit` on the training dataset.  (Else, if you apply different transformations, weird things will happen.)
+  - never call `fit` on any test data
+  
 ```python
 from sklearn.linear_model import Ridge
 X, y = boston.data, boston.target

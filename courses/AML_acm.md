@@ -49,6 +49,7 @@
   - only scale, don't center, use `MaxAbsScaler` 
 
 ### `StandardScaler` example
+- default test split is 25%  (https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 ```python
 from sklearn.linear_model import Ridge
 X, y = boston.data, boston.target

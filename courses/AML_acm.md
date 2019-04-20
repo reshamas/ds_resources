@@ -19,3 +19,12 @@
   - decision tree
   - random forest
   - rank test
+
+## Scaling
+### `StandardScaler`
+- also called "Z Score" which is ~N(0,1)
+- makes sense for Gaussian data
+
+### `MinMaxScaler`
+- usually between (0, 1); can also do (-1, 1)
+- more useful if you have fixed boundaries

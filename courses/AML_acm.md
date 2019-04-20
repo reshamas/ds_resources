@@ -70,3 +70,9 @@ ridge = Ridge().fit(X_train_scaled, y_train)
 X_test_scaled = scaler.transform(X_test)
 ridge.score(X_test_scaled, y_test)
 ```
+
+## do Preprocessing *after* splitting the data
+- proprocessing (other than **scaling**):  PCA, feature selection
+
+### Leaking
+- 

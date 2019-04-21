@@ -76,3 +76,19 @@ ridge.score(X_test_scaled, y_test)
 
 ### Leaking
 - 
+
+## Ordinal Encoding
+```python
+df_ordinal = df.copy()
+df_ordinal['boro'] = df.boro.astype("category").cat.codes
+df_ordinal
+```
+```bash
+boro	vegan
+0	2	No
+1	3	No
+2	2	No
+3	1	Yes
+4	1	Yes
+```
+5	0	No

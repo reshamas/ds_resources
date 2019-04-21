@@ -7,3 +7,5 @@ video:  https://campus.datacamp.com/courses/survival-analysis-in-r/the-weibull-m
 
 ```r
 wbmod <- survreg(Surv(time, cens) ~ horTh + tsize, data = GBSG2)
+
+```

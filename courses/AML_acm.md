@@ -9,7 +9,7 @@
 4. Intro to Supervised Learning
 5. Preprocessing
   - https://github.com/amueller/COMS4995-s19/blob/master/slides/aml-05-preprocessing/aml-07-preprocessing.ipynb
-
+6. Linear Models for Regression
 
 
 ### Notes

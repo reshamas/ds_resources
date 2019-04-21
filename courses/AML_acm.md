@@ -133,4 +133,8 @@ for i, ax in enumerate(axes.ravel()):
 plt.savefig("images/boston_hist_boxcox.png")
 ```
 
+## Lecture 6:  Linear Models for Regression
+
+### Dealing with Missing Values
+- pick up here:  https://www.youtube.com/watch?v=3cZ_ScHonsI&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=6
 

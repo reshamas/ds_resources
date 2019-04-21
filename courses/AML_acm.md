@@ -96,6 +96,41 @@ boro	vegan
 ```
 
 ## New Mode
-`OneHotEncoder` is deprecated.  Do not use.  
+- `OneHotEncoder` is deprecated.  Do not use.  
+- New mode: always transforms all columns
+- new version can work on strings
+- 
+
+```python
+
+from sklearn.compose import make_column_transformer
+from sklearn.linear_model import LogisticRegression
+# The Future!
+
+categorical = df.dtypes == object
+preprocess = make_column_transformer(
+    (StandardScaler(), ~categorical),
+    (OneHotEncoder(), categorical))
+model = make_pipeline(preprocess, LogisticRegression())
+```
+- for working with a feature such as zip codes, rather than using zip codes directly, use the average, say "income" (or whatever data is available) per zip code.  Also, be sure to exclude the specific data point for which you are computing the average income per data point, because that results in **data leakage** (particularly when a zip code only has one data point.
+- 
+ 
+## Box-Cox Transformation
+```python
+from sklearn.preprocessing import PowerTransformer
+fig, axes = plt.subplots(3, 5, figsize=(20, 10))
+pt = PowerTransformer()
+X_bc = pt.fit_transform(X_train_mm)
+print(pt.lambdas_)
+
+for i, ax in enumerate(axes.ravel()):
+    if i > 12:
+        ax.set_visible(False)
+        continue
+    ax.hist(X_bc[:, i], bins="auto")
+    ax.set_title("{}: {} {:.2f}".format(i, boston.feature_names[i], pt.lambdas_[i]))
+plt.savefig("images/boston_hist_boxcox.png")
+```
 
 

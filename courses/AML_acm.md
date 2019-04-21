@@ -83,6 +83,7 @@ df_ordinal = df.copy()
 df_ordinal['boro'] = df.boro.astype("category").cat.codes
 df_ordinal
 ```
+Note:  Don't do this.  Use **one hot encoding** instead.
 ```bash
 boro	vegan
 0	2	No
@@ -90,5 +91,7 @@ boro	vegan
 2	2	No
 3	1	Yes
 4	1	Yes
-```
 5	0	No
+```
+
+

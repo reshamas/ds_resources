@@ -36,4 +36,14 @@ str(t_yes)
 ```r
 wbmod <- survreg(Surv(time, cens) ~ horTh + tsize, data = GBSG2 )
 ```
-#### decide on covariate combimations
+#### decide on covariate combinations
+```r
+newdat <- expand.grid(
+  horTh = levels(GBSG2$horTh),
+  tsize = quantile(GBSG2$tsize, probs = c(0.25, 0.50, 0.75))
+)
+newdat
+#>   horTh tsize
+#> 1  no    20
+#> 2 yes    20
+```

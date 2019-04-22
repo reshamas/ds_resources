@@ -84,7 +84,12 @@ surv_wbmod <- melt(surv_wbmod_wide, id.vars = names(newdat),
 ggsurvplot_df(surv_wbmod, surv.geom = geom_line, 
   linetype = "horTh", color = "tsize", legend.title = NULL)
 ```
-
+---
+#### learn more about functions
+```r
+?ggsurvplot_df
+?ggsurvplot
+```
 
 
 

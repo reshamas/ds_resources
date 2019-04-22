@@ -47,3 +47,16 @@ newdat
 #> 1  no    20
 #> 2 yes    20
 ```
+#### Step 2: compute survival curves
+```r
+surv <- seq(.99, .01, by = -.01)
+t <- predict(wbmod, type = "quantile", p = 1 - surv, newdata = newdata)
+
+dim(t)
+#> [1]  6 99
+```
+note: each combination of `hortTh` by `tsize` has a row, each `p` has a column  
+
+
+
+

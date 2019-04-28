@@ -138,3 +138,10 @@ plt.savefig("images/boston_hist_boxcox.png")
 ### Dealing with Missing Values
 - pick up here:  https://www.youtube.com/watch?v=3cZ_ScHonsI&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=6
 - structural missingness:  some reason in the process why the value is missing
+
+#### Different Methods For Imputation (filling in missing values)
+1. mean / median
+2. kNN (not yet available in scikit-learn, but PR is there)
+3. regression models (not yet available in scikit-learn, but PR is there)
+4. matrix factorization (not in this lecture)
+

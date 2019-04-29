@@ -10,6 +10,7 @@
 5. Preprocessing
   - https://github.com/amueller/COMS4995-s19/blob/master/slides/aml-05-preprocessing/aml-07-preprocessing.ipynb
 6. Linear Models for Regression
+7. Linear Models for Classifications, SVMs
 
 
 ### Notes
@@ -149,4 +150,7 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 
 ### Elastic Net
 - combines Lasso and Ridge regressions
+
+---
+## Lecture 7: Linear Models for Classifications, SVMs
 

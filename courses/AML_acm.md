@@ -145,3 +145,8 @@ plt.savefig("images/boston_hist_boxcox.png")
 3. regression models (not yet available in scikit-learn, but PR is there)
 4. matrix factorization (not in this lecture)
 
+Note:  an R^2 that is negative means we are doing worse than predicting the mean.
+
+### Elastic Net
+- combines Lasso and Ridge regressions
+

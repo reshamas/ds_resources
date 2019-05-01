@@ -175,4 +175,11 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 ### Multinomial Logistic Regression
 - prediction formula is same as 1 vs rest, but here there is a way to jointly optimize them
 - nice probabilistic model that gives you a probability for each of the classes
+
+
+## Linear Models (computational considerations)
+- LM are fast, don't usually overfit
+- always use linear model **first!**
+- never not run a linear model.  there's never an excuse
+- linear model gives you a **baseline**
 - 

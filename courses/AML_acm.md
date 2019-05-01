@@ -157,4 +157,22 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 ## Difference between SVM and Logistic Regression
 - interview question used by ACM
 - answer:  SVM uses hinge loss, and Logistic Regression uses log loss
-### 
+
+### Multiclass Classification
+- hack:  reduce multi-class to binary by doing:  **one-vs-rest** OR **one-vs-one**
+
+#### 1-vs-rest
+- n binary classifiers (where n = number of classes):  each is trained on the whole dataset
+- choose the class with "the highest score"
+
+
+#### 1-vs-1
+- build binary classifier **for each pair of classes**:  n*(n-1)/2  binary classifiers
+  - count how often each class was predicted
+  - select the most commonly picked class
+- trained on balanced datasets
+
+### Multinomial Logistic Regression
+- prediction formula is same as 1 vs rest, but here there is a way to jointly optimize them
+- nice probabilistic model that gives you a probability for each of the classes
+- 

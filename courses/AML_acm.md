@@ -154,3 +154,7 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 ---
 ## Lecture 7: Linear Models for Classifications, SVMs
 
+## Difference between SVM and Logistic Regression
+- interview question used by ACM
+- answer:  SVM uses hinge loss, and Logistic Regression uses log loss
+### 

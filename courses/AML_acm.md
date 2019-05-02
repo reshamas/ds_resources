@@ -182,4 +182,13 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 - always use linear model **first!**
 - never not run a linear model.  there's never an excuse
 - linear model gives you a **baseline**
+
+## Solver Choices (doing minimization of loss function for algorithms)
+- for regression, when the (# of features) > (# of samples), use `Lars` or `LassoLars`
+- for small samples, where n < 10K, linear models work very fast
 - 
+
+
+
+
+

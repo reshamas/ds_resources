@@ -186,6 +186,8 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 ## Solver Choices (doing minimization of loss function for algorithms)
 - for regression, when the (# of features) > (# of samples), use `Lars` or `LassoLars`
 - for small samples, where n < 10K, linear models work very fast
+
+## Kernel SVMs
 - 
 
 

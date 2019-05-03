@@ -188,7 +188,18 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 - for small samples, where n < 10K, linear models work very fast
 
 ## Kernel SVMs
-- 
+ 
+--
+# Lecture 8:  Trees, Forests & Ensembles
+
+## Trees
+- one of most popular algorithms
+- benefits:  can model complex non-linear relationships
+- a non-parametric model which means they can go grow to be as complex as necessary
+- it is possible to `learn` anything with a decision tree
+- tree-based models are the most popular models in industry, possibly only competing with neural networks
+- advantage:  algorithm doesn't really care how data is preprocessed (not scale or transformations of data)
+- advantage:  interpretable, can print out model (depending on size of tree)
 
 
 

@@ -210,6 +210,18 @@ A Gini score gives an idea of how good a split is by how mixed the classes are i
 ### Cross Entropy
 Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label. So predicting a probability of .012 when the actual observation label is 1 would be bad and result in a high loss value. A perfect model would have a log loss of 0.
 
+## Parameter Tuning
+- trees are prone to overfitting
+- pre-pruning:  stop the growth of the tree
+- post-pruning:  grow a deep tree and prune it back
+  - not yet available in sklearn
+
+### Tuning Parameters:  Limit Tree Size
+- `max_depth`
+- `max_leaf_nodes`
+- `min_samples_split` (stop splitting after node has x number of samples left)
+- `  impurity_decrease` (only decrease if you can reduce the impurity by this much)
+- usually people pick 1 or 2 of these criteria and **grid search** them
 
 
 

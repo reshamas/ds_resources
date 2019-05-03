@@ -201,6 +201,14 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
 - advantage:  algorithm doesn't really care how data is preprocessed (not scale or transformations of data)
 - advantage:  interpretable, can print out model (depending on size of tree)
 
+## Criteria for Measuring **Impurity** of Tree Node
+In the context of general machine learning, the primary reason 0-1 loss is seldom used is that 0-1 loss is not a convex loss function, and also is not differentiable at 0.
+
+### Gini Index
+A Gini score gives an idea of how good a split is by how mixed the classes are in the two groups created by the split. A perfect separation results in a Gini score of 0, whereas the worst case split that results in 50/50 classes.
+
+### Cross Entropy
+Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label. So predicting a probability of .012 when the actual observation label is 1 would be bad and result in a high loss value. A perfect model would have a log loss of 0.
 
 
 

@@ -19,3 +19,6 @@
 
 - [How to Answer the 31 Most Common Interview Questions](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions)
 
+## Product Manager
+- [Acing Your Product Manager Interview](https://hackernoon.com/acing-your-product-manager-interview-e4f163408cef)
+

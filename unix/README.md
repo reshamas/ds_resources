@@ -1,3 +1,19 @@
+# Virtual Environments
+
+```bash
+# Create virtual environment
+conda create --name test python=3.7 numpy pandas seaborn=0.9.0 ipykernel
+
+# To activate this environment, use
+conda activate pandas_workshop
+
+# To deactivate an active environment, use
+conda deactivate
+
+# remove virtual environment
+conda remove --name your_env_name --all
+```
+
 # Unix
 
 tag:  write output to file, pipe out

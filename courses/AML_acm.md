@@ -223,5 +223,7 @@ Cross-entropy loss, or log loss, measures the performance of a classification mo
 - `  impurity_decrease` (only decrease if you can reduce the impurity by this much)
 - usually people pick 1 or 2 of these criteria and **grid search** them
 
+### Cons of Trees
+- **Instability** can get a completely different model if you rerun it
 
 

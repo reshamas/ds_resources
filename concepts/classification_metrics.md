@@ -40,6 +40,11 @@
 
 ## False Positive Rate vs False Discovery Rate
 
+The **False Positive Rate** (FPR) is telling you the proportion of all the people who do not have the disease who will be identified as having the disease.
+
+The FDR is telling you the proportion of all the people identified as having the disease who do not have the disease.
+
+
 https://stats.stackexchange.com/questions/336455/fpr-false-positive-rate-vs-fdr-false-discovery-rate
 
 ![fp.png](images/fp_fdr.png)

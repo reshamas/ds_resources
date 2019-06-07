@@ -19,7 +19,7 @@
     
 ### Recall
 45 patients in your test set have cancer. Your model identifies 37 of them as having cancer.  
-35/45 represents the **recall** which is:  of all the true, which were recalled?
+37/45 represents the **recall** which is:  of all the true, which were recalled?
 
 
 ## Specificity

@@ -36,5 +36,12 @@
 
 ![f1.png](images/f1.png)
 
+---
+
+## False Positive Rate vs False Discovery Rate
+
+https://stats.stackexchange.com/questions/336455/fpr-false-positive-rate-vs-fdr-false-discovery-rate
+
+![fp.png](images/fp_fdr.png)
 
 

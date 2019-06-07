@@ -16,6 +16,11 @@
 - of all the ones that were **labeled POSITIVE**, which were **really Positive**?
     - **TP / (Actual YES)**    
     - TP / (TP + FN)
+    
+### Recall
+45 patients in your test set have cancer. Your model identifies 37 of them as having cancer.  
+35/45 represents the **recall** which is:  of all the true, which were recalled?
+
 
 ## Specificity
 - Specificity – how good a test is at **avoiding false alarms**. A test can cheat and maximize this by always returning “negative”.

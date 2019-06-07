@@ -18,7 +18,7 @@
     - TP / (TP + FN)
 
 ## Specificity
-- Specificity – how good a test is at avoiding false alarms. A test can cheat and maximize this by always returning “negative”.
+- Specificity – how good a test is at **avoiding false alarms**. A test can cheat and maximize this by always returning “negative”.
     - TN / N
 
 ## Misclassification Rate

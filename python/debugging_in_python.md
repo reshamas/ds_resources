@@ -24,6 +24,8 @@ fastai video:  https://youtu.be/Z0ssNAbe81M?t=6306
 - there are lots of tutorials there
 
 ## `pdb' Commands to Know
+[pdb Documentation](https://docs.python.org/3/library/pdb.html)  
+
 `h`  help  
 `p`  print    [Example:  p <object> ]  
 `n`  go to next line  

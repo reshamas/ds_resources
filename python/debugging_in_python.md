@@ -24,17 +24,17 @@ fastai video:  https://youtu.be/Z0ssNAbe81M?t=6306
 - there are lots of tutorials there
 
 ## `pdb' Commands to Know
-`h`  help
-`p`  print    [Example:  p <object> ]
-`n`  go to next line
-`s`  step into the function; don't skip over it
-`c`  continue until you hit next break point
-`u`  go up the callstack (get out of a property or function, go one level up)
-`d`  do down the callstack
-`l`  l(ist) [first[, last]]
+`h`  help  
+`p`  print    [Example:  p <object> ]  
+`n`  go to next line  
+`s`  step into the function; don't skip over it  
+`c`  continue until you hit next break point  
+`u`  go up the callstack (get out of a property or function, go one level up)  
+`d`  do down the callstack  
+`l`  l(ist) [first[, last]]  
 List source code for the current file. Without arguments, list 11 lines around the current line or continue the previous listing. With `.` as argument, list 11 lines around the current line. With one argument, list 11 lines around at that line. With two arguments, list the given range; if the second argument is less than the first, it is interpreted as a count.
 
-The current line in the current frame is indicated by `->`. If an exception is being debugged, the line where the exception was originally raised or propagated is indicated by `>>`, if it differs from the current line.
+The current line in the current frame is indicated by `->`. If an exception is being debugged, the line where the exception was originally raised or propagated is indicated by `>>`, if it differs from the current line.  
 
 ### Commands you need to know
 - s / n / c

@@ -38,6 +38,9 @@ List source code for the current file. Without arguments, list 11 lines around t
 
 The current line in the current frame is indicated by `->`. If an exception is being debugged, the line where the exception was originally raised or propagated is indicated by `>>`, if it differs from the current line.  
 
+`exit`  exit debugger
+
+
 ### Commands you need to know
 - s / n / c
 - u / d
@@ -59,3 +62,8 @@ The current line in the current frame is indicated by `->`. If an exception is b
 - Jeremy uses `%debug` all of the time, along with the idea of copying code out of the function to a different cell and running it step by step
 - there are similar things you can do inside of Visual Studio code, there is a Jupyter extension, which lets you select any line of code, and select option for running it in Jupyter, and create a little window showing you the output
 - Personnally, Jeremy thinks Jupyter notebook is better, and perhaps by the time you watch this on video, Jupyter Labs will be the main thing. it's the next version of Jupyter notebooks
+
+## Option 2:  `%debug`  
+- type this in next cell after encountering an error
+
+(debugging section ends at 1:53)

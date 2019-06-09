@@ -1,8 +1,9 @@
 # Data Science Interview Questions
 
 ## How do you debug in Python?
-- Reference:  [%debug or pdb.set_trace()](../python/debugging_in_python.md)
+- Reference:  [%debug OR pdb.set_trace()](../python/debugging_in_python.md)
 - Python
+  - `%debug`
   - `import pdb`
   - Jupyter Notebook:  `from IPython.core.debugger import set_trace`
 

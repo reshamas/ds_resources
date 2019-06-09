@@ -30,6 +30,10 @@ fastai video:  https://youtu.be/Z0ssNAbe81M?t=6306
 - p
 - l
 
+### sample screen
+![f1.png](images/python_pdb.png)
+
+
 ### more on debugging
 - `from IPython.core.debugger import set_trace`  (get pretty colors)
 - [Debugging Jupyter Notebooks](https://davidhamann.de/2017/04/22/debugging-jupyter-notebooks/)

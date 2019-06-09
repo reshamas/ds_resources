@@ -11,7 +11,7 @@
   - https://github.com/amueller/COMS4995-s19/blob/master/slides/aml-05-preprocessing/aml-07-preprocessing.ipynb
 6. Linear Models for Regression
 7. Linear Models for Classifications, SVMs
-
+8. Trees, Forests and Ensembles
 
 ### Notes
 - Parametric model example:  linear
@@ -191,6 +191,7 @@ Note:  an R^2 that is negative means we are doing worse than predicting the mean
  
 --
 # Lecture 8:  Trees, Forests & Ensembles
+video:  https://www.youtube.com/watch?v=_FBgcCbAvig&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=8
 
 ## Trees
 - one of most popular algorithms
@@ -225,7 +226,8 @@ Cross-entropy loss, or log loss, measures the performance of a classification mo
 
 
 
->note:  left off on Lecture 8 (pick up at 40:00)
+[note:  left off on Lecture 8 (pick up at 40:00)]
+
 https://www.youtube.com/watch?v=_FBgcCbAvig&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=8
 
 ### Cons of Trees
@@ -233,5 +235,60 @@ https://www.youtube.com/watch?v=_FBgcCbAvig&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmw
 - there *can be* areas in the tree splits where predictions can be very different
 - the areas where there is a lot of training data, the predictions will not differ much
 - the areas where it overfits, will be different
+- you can compute feature importance with decision trees:  `tree.feature_importances_`;  but, for a single tree, the feature importances are unstable, just as each individual tree is
+- trees can directly work with categorical data (vs in regression, we do one-hot encoder)
+
+## Ensemble Methods
+- use multiple models and mash them together
+- build different models and average the results, or probabilities, or predictions
+- `VotingClassifier` can average between decision tree and regression
+
+## Bagging = Bootstrap AGGregration
+- Bootstrap:  **sample WITH replacement** until you have as much as the original dataset
+  - can do this 100 times; will get 100 models that are slightly different
+  - averaging these models will hopefully give you a better model
+- `BaggingClassifier`, `BaggingRegressor`
+
+### Trees
+- trees are **high variance** which means if you change the dataset a little, you will get a very different model
+- example of "high bias":  using a linear model when the separation is not linear
+- trees are non-parametric models
+- Leo Breiman:  invented random forests
+
+## Random Forests
+- build hundreds of trees, maybe thousands
+- average them, and the average will be your prediction
+- RF averages out any overfitting
+
+## How Random Forests Work:  Randomize in 2 ways
+- For each tree:
+  - pick bootstrap sample of data
+- For each split:
+  - pick random sample of features
+- More trees are always better
+
+## Tuning Random Forests
+- Main parameters:  `max_features`
+  - use approx `sqrt(n_features)` for classification
+  - approx `n_features` for regression
+- n_estimators > 100 (`n_estimators` = # of trees in the forest); default is 10 and will change to 100 in scikit version 0.22
+  - source:  https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+- having several thousand trees is not uncommon
+- Prepruning might help, definitely helps with model size
+  - if you limit depth or leaf nodes, training can be much faster and resulting model can be smaller
+
+## Extremely Randomized Trees (Extra Trees)
+- inject more randomness, but in a different way
+- randomly draw threshold for each feature
+- faster because no sorting / searching
+
+### Out-of-bag Estimates
+- each tree uses only ~66% of the data
+- can evaluate it on the rest
+- can get away without using a validation set
+- can use more data to train your model
+
+## Variable Importance
+- would trust the variable importance from random forest output more
 
 

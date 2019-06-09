@@ -1,5 +1,8 @@
 # Data Science Interview Questions
 
+## How do you debug in Python?
+- Reference:  [%debug or dbp](python/debugging_in_python.md)
+
 ## Explain p-value
 - Reference:  https://www.youtube.com/watch?v=9jW9G8MO4PQ
 - we have null hypothesis

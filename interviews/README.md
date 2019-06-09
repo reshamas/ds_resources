@@ -7,6 +7,13 @@
   - `import pdb`
   - Jupyter Notebook:  `from IPython.core.debugger import set_trace`
 
+## How do you evaluate model performance?
+- Reference:  scikit-learn [Model evaluation: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+
+
+---
+
 ## Explain p-value
 - Reference:  https://www.youtube.com/watch?v=9jW9G8MO4PQ
 - we have null hypothesis

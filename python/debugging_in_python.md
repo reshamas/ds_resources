@@ -1,6 +1,6 @@
 # Python Debugger
-**Note:** notes here are from [fastai Lesson 8 Notes](https://github.com/reshamas/fastai_deeplearn_part1/blob/e35fce3a1248dc567893e47fe06e35465cf65728/courses/v2-dl2/lesson_08.md)
-fastai video:  https://youtu.be/Z0ssNAbe81M?t=6306
+**Note:** notes here are from [fastai Lesson 8 Notes](https://github.com/reshamas/fastai_deeplearn_part1/blob/e35fce3a1248dc567893e47fe06e35465cf65728/courses/v2-dl2/lesson_08.md) which starts at 1:41
+fastai video:  https://youtu.be/Z0ssNAbe81M?t=6087
 
 
 - unfortunately, no one teaches basic software development skills in an academic program

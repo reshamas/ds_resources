@@ -223,7 +223,15 @@ Cross-entropy loss, or log loss, measures the performance of a classification mo
 - `  impurity_decrease` (only decrease if you can reduce the impurity by this much)
 - usually people pick 1 or 2 of these criteria and **grid search** them
 
+
+
+>note:  left off on Lecture 8 (pick up at 40:00)
+https://www.youtube.com/watch?v=_FBgcCbAvig&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=8
+
 ### Cons of Trees
 - **Instability** can get a completely different model if you rerun it
+- there *can be* areas in the tree splits where predictions can be very different
+- the areas where there is a lot of training data, the predictions will not differ much
+- the areas where it overfits, will be different
 
 

@@ -1,7 +1,10 @@
 # Data Science Interview Questions
 
 ## How do you debug in Python?
-- Reference:  [%debug or dbp](../python/debugging_in_python.md)
+- Reference:  [%debug or pdb.set_trace()](../python/debugging_in_python.md)
+- Python
+  - `import pdb`
+  - Jupyter Notebook:  `from IPython.core.debugger import set_trace`
 
 ## Explain p-value
 - Reference:  https://www.youtube.com/watch?v=9jW9G8MO4PQ

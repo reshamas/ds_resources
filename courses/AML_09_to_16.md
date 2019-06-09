@@ -8,5 +8,6 @@
 ---
 
 # Lecture 9
-video:  https://www.youtube.com/watch?v=OC3qmxGh2gc&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=9
+[video](https://www.youtube.com/watch?v=OC3qmxGh2gc&list=PL_pVmAaAnxIQGzQS2oI3OWEPT-dpmwTfA&index=9)
 
+##

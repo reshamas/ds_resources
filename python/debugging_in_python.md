@@ -31,7 +31,7 @@ fastai video:  https://youtu.be/Z0ssNAbe81M?t=6306
 - l
 
 ### sample screen
-![f1.png](images/python_pdb.png)
+![f1.png](../images/python_pdb.png)
 
 
 ### more on debugging

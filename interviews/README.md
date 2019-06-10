@@ -1,5 +1,35 @@
 # Data Science Interview Questions
 
+
+## How do you evaluate model performance?
+- Reference:  scikit-learn [Model evaluation: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+## What is REGULARIZATION?
+- a technique used to avoid overfitting
+
+## What are some examples of REGULARIZATION?
+- Lasso and Ridge
+- Dropout in neural networks
+
+## What is difference between LASSO and RIDGE Regularization?
+- Reference:  [regularization](../concepts/regularization.md)
+
+### LASSO Regularization (L1)
+- also known as **L1**
+- drives some weights to 0, so features can be dropped
+- minimizes the sum of the loss function
+
+### RIDGE Regularization (L2)
+- also knowns as **L2**
+- reduces coefficients, but does not make the zero, but has unique solution
+- minimizes the **sum of the square** of the distances 
+
+
+## What is Elastic Net?
+- Elastic Net combines L1 and L2
+
+---
+
 ## How do you debug in Python?
 - Reference:  [%debug OR pdb.set_trace()](../python/debugging_in_python.md)
 - Python
@@ -7,12 +37,6 @@
   - `import pdb`
   - Jupyter Notebook:  `from IPython.core.debugger import set_trace`
 
-## How do you evaluate model performance?
-- Reference:  scikit-learn [Model evaluation: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)
-
-
-
----
 
 ## Explain p-value
 - Reference:  https://www.youtube.com/watch?v=9jW9G8MO4PQ

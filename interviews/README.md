@@ -4,14 +4,16 @@
 ## How do you evaluate model performance?
 - Reference:  scikit-learn [Model evaluation: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
+---
+
 ## What is REGULARIZATION?
 - a technique used to avoid overfitting
 
-## What are some examples of REGULARIZATION?
+### What are some examples of REGULARIZATION?
 - Lasso and Ridge
 - Dropout in neural networks
 
-## What is difference between LASSO and RIDGE Regularization?
+### What is difference between LASSO and RIDGE Regularization?
 - Reference:  [regularization](../concepts/regularization.md)
 
 ### LASSO Regularization (L1)
@@ -25,7 +27,7 @@
 - minimizes the **sum of the square** of the distances 
 
 
-## What is Elastic Net?
+### What is Elastic Net?
 - Elastic Net combines L1 and L2
 
 ---

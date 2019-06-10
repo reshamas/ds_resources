@@ -18,3 +18,14 @@
 ## Boosting (in General)
 - also an ensemble technique, but smarter than doing bagging 
 - in boosting:  each model is very weak so averaging them will not do it; instead
+
+## Gradient Boosting Algorithm
+- you try to fit the residual
+
+## Gradient Boosting Advantages
+- Slower to train than random forests (if using "old" `GradientBoostingRegressor`), but much faster to predict than Random Forests
+  - trees are usually shallow, and we need fewer of them random forests
+  - trees are much simpler, because we are conditionally building the trees 
+- Very fast using XGBoost, LightGBM, pygbm, new scikit-learn implementation #12807
+- Small model size
+- Typically more accurate than random forests

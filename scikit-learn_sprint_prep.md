@@ -1,4 +1,4 @@
-# Scikit-learn Preparation
+# Scikit-learn Open Source Sprint: Preparation
 
 ## Python Tutorials
 

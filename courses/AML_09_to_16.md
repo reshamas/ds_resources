@@ -31,7 +31,7 @@
 - Typically more accurate than random forests
 
 ## Aggressive sub-sampling
-- according to user feedback, using column sub-sampling prevents over-fitting even more so than the traditional row sub-sampling
+- according to user feedback, using column sub-sampling **prevents over-fitting** even more so than the traditional row sub-sampling
 
 ## Early Stopping
 - adding trees can lead to overfitting

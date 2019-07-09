@@ -29,3 +29,12 @@
 - Very fast using XGBoost, LightGBM, pygbm, new scikit-learn implementation #12807
 - Small model size
 - Typically more accurate than random forests
+
+## Aggressive sub-sampling
+- according to user feedback, using column sub-sampling prevents over-fitting even more so than the traditional row sub-sampling
+
+## Early Stopping
+- adding trees can lead to overfitting
+- stop adding trees when validation accuracy stops increasing
+- optional in XGBoost and sklearn >= 0.20
+

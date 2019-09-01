@@ -50,3 +50,20 @@ n_distinct(df_311_complaints2$Complaint.Type)
 noise_complaints2 <- df_311_complaints2[grep("^Noise", df_311_complaints2$Complaint.Type), ]
 noise_counts2 <- table(noise_complaints2$Complaint.Type)
 noise_counts2
+
+#---------------------------------------------------
+# Method 3:  wrap the variable in factor() within the table statement
+#---------------------------------------------------
+# LOAD DATASET
+df_311_complaints3 <- read.csv("https://s3.amazonaws.com/datapolitan-training-files/311_Requests_Oct15_Nov20.csv", 
+                               header=TRUE, 
+                               sep=",")
+
+dim(df_311_complaints3)
+n_distinct(df_311_complaints3$Complaint.Type)
+
+# CREATE SUBSET
+noise_complaints3 <- df_311_complaints3[grep("^Noise", df_311_complaints3$Complaint.Type), ]
+noise_counts3 <- table(factor(noise_complaints3$Complaint.Type))
+noise_counts3
+

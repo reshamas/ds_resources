@@ -19,3 +19,6 @@
 * Google products helps customers from feeling they are locked into one cloud provider
 * Cloud Bigtable, a **database** we'll discuss later. Bigtable uses the interface of the open source database Apache HBase, which gives customers the benefit of code portability. 
 * **Kubernetes** gives customers the ability to **mix and match microservices running across different clouds**, and Google Stackdriver lets customers monitor workload across multiple cloud providers.
+* **Least Privilege Environment**  each user should only have the privileges they need to do their job
+ * people are protected from an entire class of errors
+* 

@@ -5,6 +5,7 @@
 * [Coursera:  GCP Fundamentals](https://www.coursera.org/learn/gcp-fundamentals)
   * Intermediate level
   * Takes 13 hours to complete
+* [GCP Console](console.cloud.google.com/home/dashboard)
 
 ## Certifications
 * Associate Cloud Engineer

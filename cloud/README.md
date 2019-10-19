@@ -2,6 +2,9 @@
 
 ## Links
 * [Quiklabs: GCP Essentials](https://google.qwiklabs.com/quests/23)
+  * interactive hands-on labs platform called Qwiklabs which is part of Google Cloud
+  * Qwiklabs allows you to get practical hands-on experience with GCP and provisions you with Google account credentials so you can access that GCP console at no cost.
+  * The first step is to log into Coursera in an incognito window.
 * [Coursera:  GCP Fundamentals](https://www.coursera.org/learn/gcp-fundamentals)
   * Intermediate level
   * Takes 13 hours to complete

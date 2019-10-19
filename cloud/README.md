@@ -21,4 +21,4 @@
 * **Kubernetes** gives customers the ability to **mix and match microservices running across different clouds**, and Google Stackdriver lets customers monitor workload across multiple cloud providers.
 * **Least Privilege Environment**  each user should only have the privileges they need to do their job
  * people are protected from an entire class of errors
-* 
+* LAMP stands for Linux, Apache, MySQL, PHP.

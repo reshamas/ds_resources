@@ -9,6 +9,7 @@
   * Intermediate level
   * Takes 13 hours to complete
 * [GCP Console](console.cloud.google.com/home/dashboard)
+* Google Chrome: [Incognito browsing](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en)
 
 ## Certifications
 * Associate Cloud Engineer

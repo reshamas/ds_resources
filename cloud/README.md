@@ -27,3 +27,6 @@
 * **Least Privilege Environment**  each user should only have the privileges they need to do their job
  * people are protected from an entire class of errors
 * LAMP stands for Linux, Apache, MySQL, PHP.
+
+## Labs
+* [Tips for course labs](https://www.coursera.org/learn/gcp-fundamentals/gradedLti/uYNvY/getting-started-with-cloud-marketplace-formerly-cloud-launcher)

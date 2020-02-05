@@ -11,7 +11,7 @@ Tweet with a mention to our account and we will retweet it.
 
 ---
 
-## NYC PyLADIES
+## NYC PyLadies
 
 ### 1. Meetup Message Board
 https://www.meetup.com/NYC-PyLadies/messages/boards/

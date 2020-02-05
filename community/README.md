@@ -20,5 +20,5 @@ Post here on the Meetup Message Board: https://www.meetup.com/NYC-PyLadies/messa
 Tweet with a mention to our account and we will retweet it.
 
 ### 3. Slack
-You can join the PyLadies Slack via this link and post in the #nyc channel:  http://slackin.pyladies.com
+You can join the PyLadies Slack via this link and post in the **#nyc** channel:  http://slackin.pyladies.com
 

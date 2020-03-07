@@ -27,9 +27,8 @@ updated:  07-Mar-2020
 
 Notes:  
 - (a) Stack Overflow 2019 [Developers Survey](https://insights.stackoverflow.com/survey/2019)
-PSF = Python Software Foundation  
-CS = computer science
-
+- PSF = Python Software Foundation  
+- CS = computer science
 
 It is interesting to note that Python and R were released in the early 90's (1990 and 1993) and the women's communities were created nearly 20 years later.  Python did not add a woman to their core developer team until 2017, and it seems that R does not have a woman on its core development team.  This sheds some light on the need for creating, growing and supporting communities for women and all under-represented groups.  
 

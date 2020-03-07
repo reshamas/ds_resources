@@ -13,6 +13,7 @@ updated:  07-Mar-2020
 | Sponsors (a)      | PSF        | R Foundation |              |
 | Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [16.4K](https://twitter.com/_R_Foundation)| 18.6  |
 | Users (b)         | 41.7%      | 5.8%       |  7.2   |
+|                   |            |        |     |
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |
 | Countries         | 30         |  52        |  0.6   |

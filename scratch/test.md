@@ -5,7 +5,6 @@ updated:  07-Mar-2020
 
 | Detail            | PyLadies | R-Ladies  | ratio Python/R  |
 |-------------------|------------|------------|----------------|
-| Dashboard         | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
 | Language          | Python     | Rstats     |                |
 | Language Released | 1990       | 1993       |                |
 | Founded           | 2011       | 2012       |                |
@@ -15,15 +14,17 @@ updated:  07-Mar-2020
 | Users (b)         | 41.7%      | 5.8%       |  7.2   |
 | URG Initatives    | ?          | [R Forwards](https://forwards.github.io)       |     |
 |                   |            |        |     |
+| Dashboard         | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |
 | Countries         | 30         |  52        |  0.6   |
 | Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))  |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   | 0.8
 | Slack Members     | 3509       | 2242       |  1.6   |  
 | Funding           | $?         |  yes       |           |     
+| Leadership team             | in-progress| yes        |                |
 |                   |            |        |     |
 | Field of Study    | CS         | Statistics |            |
-| Board             | in-progress| yes        |                |
+
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |
 

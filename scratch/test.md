@@ -7,7 +7,6 @@ updated:  07-Mar-2020
 |-------------------|------------|------------|----------------|
 | Language          | Python     | Rstats     |                |
 | Language Released | 1990       | 1993       |                |
-| Founded           | 2011       | 2012       |                |
 | # Female core developers|  5   | 0          |  5:0              | 
 | Sponsors (a)      | PSF        | R Foundation |              |
 | Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [16.4K](https://twitter.com/_R_Foundation)| 18.6  |
@@ -15,6 +14,7 @@ updated:  07-Mar-2020
 | URG Initatives    | ?          | [R Forwards](https://forwards.github.io)       |     |
 |                   |            |        |     |
 | Dashboard         | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
+| Founded           | 2011       | 2012       |                |
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |
 | Countries         | 30         |  52        |  0.6   |

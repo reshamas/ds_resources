@@ -10,9 +10,6 @@ updated:  07-Mar-2020
 | Language Released | 1990       | 1993       |                |
 | Founded           | 2011       | 2012       |                |
 | # Female core developers|  5   | 0          |  5:0              | 
-| Funding           | $?         |  yes       |           |          
-| Field of Study    | CS         | Statistics |            |
-| Board             | in-progress| yes        |                |
 | Sponsors (a)      | PSF        | R Foundation |              |
 | Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [16.4K](https://twitter.com/_R_Foundation)| 18.6  |
 | Users (b)         | 41.7%      | 5.8%       |  7.2   |
@@ -21,6 +18,9 @@ updated:  07-Mar-2020
 | Countries         | 30         |  52        |  0.6   |
 | Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))  |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   | 0.8
 | Slack Members     | 3509       | 2242       |  1.6   |  
+| Funding           | $?         |  yes       |           |          
+| Field of Study    | CS         | Statistics |            |
+| Board             | in-progress| yes        |                |
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |
 

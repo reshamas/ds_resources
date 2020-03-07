@@ -10,15 +10,15 @@ updated:  07-Mar-2020
 | Founded           | 2011       | 2012       |     
 | # Female core developers|  5   | 0          |
 | Funding           | $?         |  yes       |            
-| Sponsor Followers | [305.1K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 
 | Field of Study    | CS (c), others    | Statistics     |
 | Board             | in-progress| yes        |
 | Sponsors          | PSF (b)    | R Consortium |  
+| Sponsor Followers | [305.1K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 
 | Users (a)         | 41.7%      | 5.8%       | 
 | Members           | 54,000     | 65,000     |
 | Chapters          | 77         | 191        |
 | Countries         | 30         |  52        |
-| Slack Members     | 751        | 1515       |
+| Slack Members     | 3509       | 2242       |
 | Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))       |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   |
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |

@@ -8,12 +8,12 @@ updated:  07-Mar-2020
 | Language          | Python     | Rstats     |                |
 | Language Released | 1990       | 1993       |                |
 | Founded           | 2011       | 2012       |                |
-| # Female core developers|  5   | 0          |                | 
-| Funding           | $?         |  yes       |  5 / 0         |          
+| # Female core developers|  5   | 0          |  5:0              | 
+| Funding           | $?         |  yes       |           |          
 | Field of Study    | CS (c), others | Statistics |            |
 | Board             | in-progress| yes        |                |
 | Sponsors          | PSF (b)    | R Consortium |              |
-| Sponsor Followers | [305.1K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 36.3  |
+| Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 36.3  |
 | Users (a)         | 41.7%      | 5.8%       |  7.2   |
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |

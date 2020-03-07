@@ -3,8 +3,9 @@
 ## Table of Key Statistics of PyLadies and R-Ladies
 updated:  07-Mar-2020
 
-| Detail            | PyLadies   | R-Ladies   | ratio Pytho/R  |
+| Detail            | PyLadies | R-Ladies  | ratio Python/R  |
 |-------------------|------------|------------|----------------|
+| Dashboard         | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
 | Language          | Python     | Rstats     |                |
 | Language Released | 1990       | 1993       |                |
 | Founded           | 2011       | 2012       |                |
@@ -31,3 +32,9 @@ CS = computer science
 
 
 It is interesting to note that Python and R were released in the early 90's (1990 and 1993) and the women's communities were created nearly 20 years later.  Python did not add a woman to their core developer team until 2017, and it seems that R does not have a woman on its core development team.  This sheds some light on the need for creating, growing and supporting communities for women and all under-represented groups.  
+
+## References
+- Heather Turner (R Forwards):  [Celebration 2020 talk](https://www.heatherturner.net/talks/celebration2020)
+
+## Acknowledgments
+- Ben Ubah for creating the dashboards

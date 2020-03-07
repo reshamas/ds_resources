@@ -14,8 +14,8 @@ updated:  07-Mar-2020
 | URG Initatives    | ?          | [R Forwards](https://forwards.github.io)       |     |
 | Conferences       | PyCon      | Rstudio, useR! 
 |                   |            |        |     |
-|                   | **PyLadies**  | **R-Ladies**       |     |
-| **DASHBOARD**     | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
+|                   |    |        |     |
+| **DASHBOARD**     | **[PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)**   | **[R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)**
 | Founded           | 2011       | 2012       |                |
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |

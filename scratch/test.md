@@ -19,8 +19,8 @@ updated:  07-Mar-2020
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |
 | Countries         | 30         |  52        |  0.6   |
-| Slack Members     | 3509       | 2242       |  1.6   |  
 | Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))  |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   | 0.8
+| Slack Members     | 3509       | 2242       |  1.6   |  
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |
 

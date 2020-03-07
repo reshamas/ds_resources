@@ -13,8 +13,8 @@ updated:  07-Mar-2020
 | Funding           | $?         |  yes       |           |          
 | Field of Study    | CS         | Statistics |            |
 | Board             | in-progress| yes        |                |
-| Sponsors (a)      | PSF        | R Consortium |              |
-| Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 36.3  |
+| Sponsors (a)      | PSF        | R Foundation |              |
+| Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [16.4K](https://twitter.com/_R_Foundation)| 18.6  |
 | Users (b)         | 41.7%      | 5.8%       |  7.2   |
 | Members           | 54,000     | 65,000     |  0.8   |
 | Chapters          | 77         | 191        |  0.4   |

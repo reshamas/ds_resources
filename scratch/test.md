@@ -3,23 +3,23 @@
 ## Table of Key Statistics of PyLadies and R-Ladies
 updated:  07-Mar-2020
 
-| Detail            | PyLadies   | R-Ladies   | 
-|-------------------|------------|------------|
-| Language          | Python     | Rstats     | 
-| Language Released | 1990       | 1993       |
-| Founded           | 2011       | 2012       |     
-| # Female core developers|  5   | 0          |
-| Funding           | $?         |  yes       |            
-| Field of Study    | CS (c), others    | Statistics     |
-| Board             | in-progress| yes        |
-| Sponsors          | PSF (b)    | R Consortium |  
-| Sponsor Followers | [305.1K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 
-| Users (a)         | 41.7%      | 5.8%       | 
-| Members           | 54,000     | 65,000     |
-| Chapters          | 77         | 191        |
-| Countries         | 30         |  52        |
-| Slack Members     | 3509       | 2242       |
-| Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))       |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   |
+| Detail            | PyLadies   | R-Ladies   | ratio Pytho/R  |
+|-------------------|------------|------------|----------------|
+| Language          | Python     | Rstats     |                |
+| Language Released | 1990       | 1993       |                |
+| Founded           | 2011       | 2012       |                |
+| # Female core developers|  5   | 0          |                | 
+| Funding           | $?         |  yes       |  5 / 0         |          
+| Field of Study    | CS (c), others | Statistics |            |
+| Board             | in-progress| yes        |                |
+| Sponsors          | PSF (b)    | R Consortium |              |
+| Sponsor Followers | [305.1K](https://twitter.com/ThePSF)  |  [8.4K](https://twitter.com/RConsortium)| 36.3  |
+| Users (a)         | 41.7%      | 5.8%       |  7.2   |
+| Members           | 54,000     | 65,000     |  0.8   |
+| Chapters          | 77         | 191        |  0.4   |
+| Countries         | 30         |  52        |  0.6   |
+| Slack Members     | 3509       | 2242       |  1.6   |  
+| Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))  |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   | 0.8
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |
 

@@ -12,6 +12,7 @@ updated:  07-Mar-2020
 | Sponsor Followers | [305.2K](https://twitter.com/ThePSF)  |  [16.4K](https://twitter.com/_R_Foundation)| 18.6  |
 | Users (b)         | 41.7%      | 5.8%       |  7.2   |
 | URG Initatives    | ?          | [R Forwards](https://forwards.github.io)       |     |
+| Conferences       | PyCon      | Rstudio, useR! 
 |                   |            |        |     |
 | Dashboard         | [PyLadies](https://nyc-pyladies.github.io/pyladies-dashboard/pyladies.html)   | [R-Ladies](https://benubah.github.io/r-community-explorer/rladies.html)
 | Founded           | 2011       | 2012       |                |
@@ -22,11 +23,7 @@ updated:  07-Mar-2020
 | Slack Members     | 3509       | 2242       |  1.6   |  
 | Funding           | $?         |  yes       |           |     
 | Leadership team             | in-progress| yes        |                |
-|                   |            |        |     |
-| Field of Study    | CS         | Statistics |            |
 
-| Conferences       | PyCon      | Rstudio, useR! 
-| Other Conferences | PyGotham   | NY R       |
 
 
 Notes:  

@@ -1,7 +1,7 @@
 
 
 ## Table of Key Statistics of PyLadies and R-Ladies
-This table compares key details of PyLadies and R-Ladies and PyLadies.  
+updated:  07-Mar-2020
 
 | Detail            | PyLadies   | R-Ladies   | 
 |-------------------|------------|------------|
@@ -19,7 +19,7 @@ This table compares key details of PyLadies and R-Ladies and PyLadies.
 | Chapters          | 77         | 191        |
 | Countries         | 30         |  52        |
 | Slack Members     | 751        | 1515       |
-| Twitter Followers | 8376       | 10000      |
+| Twitter Followers | 12.7K ([@pyladies](https://twitter.com/pyladies))       |  16.3K ([@RLadiesGlobal](https://twitter.com/RLadiesGlobal) )   |
 | Conferences       | PyCon      | Rstudio, useR! 
 | Other Conferences | PyGotham   | NY R       |
 

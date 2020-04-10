@@ -38,4 +38,7 @@ Provides functionality for:
 
 Plot creates an `.html` file and Dash creates a **dashboard web app** at a local url [127.0.0.1:8050](http://127.0.0.1:8050/)
 
+## Numpy
+- `np.linspace(0, 10, 200)` produces 200 numbers from 0 to 100, **linearly spaced**
+- `np.random.seed(101)` sets a seed of 101.
 

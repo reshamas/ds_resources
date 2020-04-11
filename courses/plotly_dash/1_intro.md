@@ -37,3 +37,7 @@ Plot creates an `.html` file and Dash creates a **dashboard web app** at a local
 
 ## Pandas
 - library built on top of Numpy
+```python
+ser_of_bool = df['Age'] > 30
+print(df[ser_of_bool])
+```

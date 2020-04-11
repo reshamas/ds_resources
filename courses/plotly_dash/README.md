@@ -10,4 +10,16 @@
 
 
 
+## Virtual Environment
+```bash
+pwd
+/Users/reshamashaikh/ds/my_repos/virus
 
+conda activate mydashenv
+
+pip install -r requirements.txt
+
+#pip install -U feather-format
+
+python 3_dash.py
+```

@@ -8,7 +8,8 @@
 - **GitHub**:  [Plotly-Dashboards-with-Dash](https://github.com/Pierian-Data/Plotly-Dashboards-with-Dash)
 - [Notes](https://docs.google.com/document/d/1DjWL2DxLiRaBrlD3ELyQlCBRu7UQuuWfgjv9LncNp_M/edit)
 
-
+## Documentation
+- [https://plotly.com/python/](https://plotly.com/python/)
 
 ## Virtual Environment
 ```bash

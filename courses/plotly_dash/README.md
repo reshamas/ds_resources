@@ -10,6 +10,7 @@
 
 ## Documentation
 - **[plotly.com/python/](https://plotly.com/python/)**
+- [python/reference](https://plotly.com/python/reference/)
 
 ## Virtual Environment
 ```bash

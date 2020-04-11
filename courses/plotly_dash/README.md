@@ -1,6 +1,6 @@
 # Interactive Python Dashboards with Plotly and Dash
-## Local url
-- 127.0.0.1:8050](http://127.0.0.1:8050/)
+
+## **[127.0.0.1:8050](http://127.0.0.1:8050/)
 
 ## Udemy Course
 - [Interactive Python Dashboards with Plotly and Dash](https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/)

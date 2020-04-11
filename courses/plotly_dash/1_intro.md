@@ -10,6 +10,24 @@
   - uses matplotlib on backend through simple `.plot()` calls
   - limited scope of plots
   - static plots
+- Bokeh 
+  - **interactive visualization library**
+  - targets modern web browsers for presentation
+  - versatile graphics
+- Plotly provides the following key features:
+  - Feature parity with MATLAB/matplotlib graphing
+  - Online chart editor
+  - Fully interactive (hover, zoom, pan)
+  
+  
+ ## GitHub Stats
+ - [https://github.com/matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)
+ - [https://github.com/mwaskom/seaborn](https://github.com/mwaskom/seaborn)
+ - [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh) 
+ - [https://github.com/plotly/dash](https://github.com/plotly/dash)
+ - [https://github.com/plotly/plotly.py](https://github.com/plotly/plotly.py)
+ - [https://github.com/plotly/plotly.js](https://github.com/plotly/plotly.js)
+ - 
 
 # Plotly and Dash
 

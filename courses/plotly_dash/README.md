@@ -11,6 +11,7 @@
 ## Documentation
 - **[plotly.com/python/](https://plotly.com/python/)**
 - [python/reference](https://plotly.com/python/reference/)
+- [https://chart-studio.plot.ly/](https://chart-studio.plot.ly/)
 
 ## Virtual Environment
 ```bash

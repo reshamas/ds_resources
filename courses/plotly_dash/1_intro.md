@@ -17,7 +17,7 @@
 - Plotly provides the following key features:
   - Feature parity with MATLAB/matplotlib graphing
   - Online chart editor
-  - Fully interactive (hover, zoom, pan)
+  - **Fully interactive (hover, zoom, pan)**
   
   
  ## GitHub Stats

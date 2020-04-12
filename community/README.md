@@ -4,7 +4,7 @@ These can be shared in various ways.
 ## Data Umbrella
 
 ### 1. Meetup  
-Post here on the Meetup Message Board:  https://www.meetup.com/nyc-uads/messages/boards/
+Post here on the Meetup Message Board: https://www.meetup.com/nyc-data-umbrella/messages/boards/
 
 ### 2. Twitter:  [@DataUmbrella](https://twitter.com/DataUmbrella)  
 Tweet with a mention to our account and we will retweet it.

@@ -18,7 +18,10 @@
   - Feature parity with MATLAB/matplotlib graphing
   - Online chart editor
   - **Fully interactive (hover, zoom, pan)**
-  
+
+## Javascript libraries for visualization
+- [d3](https://github.com/d3/d3)
+- [plotly](https://github.com/plotly/plotly.js)
   
  ## GitHub Stats
  - [https://github.com/matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)

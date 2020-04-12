@@ -7,6 +7,7 @@
 - 10 hours; 69 lectures
 - **GitHub**:  [Plotly-Dashboards-with-Dash](https://github.com/Pierian-Data/Plotly-Dashboards-with-Dash)
 - [Notes](https://docs.google.com/document/d/1DjWL2DxLiRaBrlD3ELyQlCBRu7UQuuWfgjv9LncNp_M/edit)
+- [Data](https://docs.google.com/document/d/1vI84_EpRTh4xfcFkTunFzZT0RWMcRSqdkPueVNBcLx8/edit?usp=sharing)
 
 ## Documentation
 - **[plotly.com/python/](https://plotly.com/python/)**

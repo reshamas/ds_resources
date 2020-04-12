@@ -19,18 +19,20 @@
   - Online chart editor
   - **Fully interactive (hover, zoom, pan)**
 
-## Javascript libraries for visualization
-- [d3](https://github.com/d3/d3)
-- [plotly](https://github.com/plotly/plotly.js)
-  
  ## GitHub Stats
  - [https://github.com/matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)
  - [https://github.com/mwaskom/seaborn](https://github.com/mwaskom/seaborn)
  - [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh) 
  - [https://github.com/plotly/dash](https://github.com/plotly/dash)
  - [https://github.com/plotly/plotly.py](https://github.com/plotly/plotly.py)
- - [https://github.com/plotly/plotly.js](https://github.com/plotly/plotly.js)
- - 
+ 
+ 
+## Javascript libraries for visualization
+- [d3](https://github.com/d3/d3)
+- [plotly](https://github.com/plotly/plotly.js)
+  
+
+ 
 
 # Plotly and Dash
 

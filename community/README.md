@@ -9,6 +9,9 @@ Post here on the Meetup Message Board: https://www.meetup.com/nyc-data-umbrella/
 ### 2. Twitter:  [@DataUmbrella](https://twitter.com/DataUmbrella)  
 Tweet with a mention to our account and we will retweet it.
 
+### 3. Discord:  [Data Umbrella](https://discord.gg/6S9X2y)
+Post in the #events channel.
+
 ---
 
 ## NYC PyLadies

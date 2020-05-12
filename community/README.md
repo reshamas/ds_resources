@@ -14,7 +14,7 @@ Post in the #events channel.
 
 ---
 
-## NYC PyLadies
+## [NYC PyLadies](http://nyc.pyladies.com)
 
 ### 1. Meetup 
 Post here on the Meetup Message Board: https://www.meetup.com/NYC-PyLadies/messages/boards/

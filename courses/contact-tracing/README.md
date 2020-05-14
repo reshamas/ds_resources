@@ -38,5 +38,7 @@ The contact tracing course is divided into five sections or "modules," covering:
 
 **Fever** is both a sign and symptom.
 
+## Basics of Contact Tracing
+
 
 

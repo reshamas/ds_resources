@@ -6,7 +6,6 @@
 - many different types of coronaviruses
 - article: [Johns Hopkins launches online course to train army of contact tracers to slow spread of COVID-19](https://hub.jhu.edu/2020/05/11/free-contact-tracing-course-johns-hopkins/)
 
-
 ## Learning Objectives
 1. Describe the origins of the virus that causes COVID-19
 2. Identify the clinical signs and symptoms of COVID-19 and risk factors for severe disease
@@ -22,7 +21,7 @@ The contact tracing course is divided into five sections or "modules," covering:
 4. Ethics of contact tracing, including balancing privacy and public health considerations, and examples of basic technology tools that can facilitate contact tracing, such as using text messaging for check-ins and reminders;
 5. Skills for effective communications in the tracing process, such as what it means to be an "active listener" and how to deal with common challenges that arise when investigating cases.
 
-## SARS-CoV-2
+## Section 1: Basics of COVID-19
 - originated in bats
 
 ## Signs and Symptoms
@@ -38,7 +37,12 @@ The contact tracing course is divided into five sections or "modules," covering:
 
 **Fever** is both a sign and symptom.
 
-## Basics of Contact Tracing
+## Section 2: Basics of Contact Tracing
 
+## Section 3: Steps to Investigate Cases and Trace Their Contacts
+
+
+## Section 4: Ethics of Contact Tracing and Technological Tools
+ 
 
 

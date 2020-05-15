@@ -44,5 +44,8 @@ The contact tracing course is divided into five sections or "modules," covering:
 
 ## Section 4: Ethics of Contact Tracing and Technological Tools
  
+## Section 5: Skills for Effective Communication
+
+
 
 

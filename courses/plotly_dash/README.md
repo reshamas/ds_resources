@@ -15,6 +15,14 @@
 - [https://chart-studio.plot.ly/](https://chart-studio.plot.ly/)
 
 ## Virtual Environment
+
+### Plotly examples
+```bash
+/Users/reshamashaikh/ds/my_repos/plotly-Dashboards-with-Dash/1-05-BubbleCharts
+```
+
+
+## My examples
 ```bash
 pwd
 /Users/reshamashaikh/ds/my_repos/virus

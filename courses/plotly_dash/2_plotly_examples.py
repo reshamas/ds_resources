@@ -28,3 +28,5 @@ layout = go.Layout(
 fig = go.Figure(data=data, layout=layout)
 pyo.plot(fig, filename='solution2b.html')
 ```
+
+## Multiple subplots (Heatmaps example)

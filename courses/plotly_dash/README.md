@@ -23,6 +23,7 @@
 
 
 ## My examples
+#### set up
 ```bash
 pwd
 /Users/reshamashaikh/ds/my_repos/virus
@@ -35,3 +36,14 @@ pip install -r requirements.txt
 
 python 3_dash.py
 ```
+
+#### returning to work
+```bash
+conda activate mydashenv
+(mydashenv) ➜  virus git:(master) ✗ pwd
+/Users/reshamashaikh/ds/my_repos/virus
+(mydashenv) ➜  virus git:(master) ✗ cd practice_dash 
+(mydashenv) ➜  practice_dash git:(master) ✗ code .
+(mydashenv) ➜  practice_dash git:(master) ✗ 
+```
+

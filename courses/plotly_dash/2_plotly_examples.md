@@ -58,7 +58,9 @@ pyo.plot(fig)
 - Dash offers two distinct component libraries:
     1. `dash_html_components` which has a Python component for every single HTML tag
     2. `dash_core_components` offers higher-level, interactive components that are generated with JavaScript, HTML, and CSS through the React.js library
-- 
+- Dash components, be they html or core, are described entirely through keyword attributes.
+- Dash is declarative: you will primarily describe your application through these attributes.
+
 
 
 

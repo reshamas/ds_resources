@@ -15,5 +15,5 @@ Earlier this year, in 2020, Jeremy co-founded the #Masks4All campaign to address
 
 If you have any questions, please post on Mattermost or Webex.  On Mattermost, please add an emoji to upvote the question.
 
-Presenting Jeremy. 
+Presenting Jeremy. His talk is "I Like Notebooks" 
 

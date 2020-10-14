@@ -1,4 +1,4 @@
-# Introducing TO
+# Introducing Tema Okun
 
 blog:  https://blog.jupyter.org/tema-okun-a7e5f1f0cd05
 

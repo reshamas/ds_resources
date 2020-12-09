@@ -1,7 +1,7 @@
 # -----------------------------------------------
-# Class:        Foundations of Statistics Using R
-# Title:        in-class exercises
-# Session:      5
+# Class:        
+# Title:        
+# Session:      
 # Topic:        R - Graphs
 # Last updated: 4/17/2014
 # Data:         movies2014.csv

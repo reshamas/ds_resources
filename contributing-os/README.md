@@ -43,7 +43,7 @@ Accessibility: https://github.com/jupyterlab/jupyterlab/issues?q=is%3Aopen+is%3A
 Help with the translation: https://github.com/jupyterlab/jupyterlab/issues/8829 
 
 
-
+```bash
 History of commands to set up zero-to-jupyterhub fork, clone, and remotes
 git clone git@github.com:willingc/zero-to-jupyterhub-k8s.git
 ls
@@ -57,4 +57,4 @@ git rebase upstream/master
 git log
 git status
 git push origin master
-
+```

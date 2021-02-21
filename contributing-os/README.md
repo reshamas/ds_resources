@@ -44,4 +44,17 @@ Help with the translation: https://github.com/jupyterlab/jupyterlab/issues/8829
 
 
 
+History of commands to set up zero-to-jupyterhub fork, clone, and remotes
+git clone git@github.com:willingc/zero-to-jupyterhub-k8s.git
+ls
+cd zero-to-jupyterhub-k8s
+ls
+git remote -v
+git remote add upstream https://github.com/jupyterhub/zero-to-jupyterhub-k8s.git
+git remote -v
+git fetch upstream
+git rebase upstream/master
+git log
+git status
+git push origin master
 

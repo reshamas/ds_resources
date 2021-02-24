@@ -11,3 +11,9 @@ import watermark
 %load_ext watermark
 %watermark -n -v -m -g -iv
 ```
+
+
+## see what version of library is installed
+```bash
+pip freeze | grep plotly
+```

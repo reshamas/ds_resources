@@ -7,6 +7,7 @@ Working on this issue:  https://github.com/scikit-learn/scikit-learn/issues/2030
 conda env list
 conda activate 
 ```
+
 2.  Ensure that your main branch is synced.
 ```bash
 git branch
@@ -15,5 +16,13 @@ git pull upstream main
 git push origin <feature_branch>
 ```
 
-3.  Run `python setup.py develop` to keep your environment updated.
-4.  Run `pytest sklearn`
+3.  Keep your environment updated.
+```bash
+python setup.py
+```
+
+4.  Run suite of tests
+```bash
+pytest sklearn
+```
+

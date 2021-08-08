@@ -1,3 +1,11 @@
+## Reminder for referencing scikit-learn documentation:  Use **DEV**, rather than "STABLE"
+
+https://scikit-learn.org/dev/index.html
+
+##  To look at rendered documentation
+
+`ci/circleci: doc artifact`:  Link to 0/doc/_changed.html
+
 ## Reminders for Pull Requests
 
 Working on this issue:  https://github.com/scikit-learn/scikit-learn/issues/20308
@@ -5,7 +13,7 @@ Working on this issue:  https://github.com/scikit-learn/scikit-learn/issues/2030
 1.  Ensure your virtual environment has been activated.  
 ```bash
 conda env list
-conda activate 
+conda activate /Users/reshamashaikh/anaconda3/envs/sklearn-dev
 ```
 
 2.  Ensure that your main branch is synced.
@@ -26,3 +34,9 @@ python setup.py
 pytest sklearn
 ```
 
+## Working on Issue [#20308](https://github.com/scikit-learn/scikit-learn/issues/20308)
+
+Example of how to run test
+```bash
+pytest maint_tools/test_docstrings.py -k FeatureAgglomeration-
+```

@@ -13,3 +13,19 @@
   2.  Select template
   3.  "Open as Template"
   4.  
+
+### Editing document
+- find `\begin{abstract}`
+- "Recompile" creates updated pdf file of document
+- Can type papers into "Source" or "Rich Text Format" views
+- "Rich Text" view is helpful for formatting:  bold, italics, bulleted list, etc
+
+
+### Bulleted List
+```latex
+\begin{itemize}
+\item First
+\item Second
+\end{itemize}
+```
+

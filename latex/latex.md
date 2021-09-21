@@ -29,6 +29,16 @@
 \end{itemize}
 ```
 
+### putting text in quotes
+```latex
+\say{very high level of mask use.} 
+```
+will show this:
+```text
+“very high level of mask use.” 
+```
+
+
 ## Doing Citations in `template.tex` file (can change file name from template)
 
 ### Citing inside the text of a paragraph
@@ -84,7 +94,21 @@ Citations are in a file known as BibTeX format, and that file is named "referenc
 ## Working Collaboratively
 1. Go to upper right menu
 2. Select "Share"
-3. 
+
+### To track changes
+1. Go to upper right menu
+2. Click "Review"
+3. As owner of file, can see option to enable "Track changes for Everyone"
+
+  
+### To add comments
+1.  Highlight text in source file
+2.  Should see a gray box option on upper right for "Add comment"
+3.  Option: can double click on a word and then "Add comment"
+  
+### To see changes
+- select "Overview" on bottom right.  Note: this option may only be available to owners / editors of the file.
+  
   
 
 

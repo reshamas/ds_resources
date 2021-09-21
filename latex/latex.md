@@ -39,11 +39,12 @@ will show this:
 ```
 
 
-## Doing Citations in `template.tex` file (can change file name from template)
+## Doing Citations in `template.tex` file
+-  (can change file name from template)
 
 ### Citing inside the text of a paragraph
 - something you would use in the body of the text
--
+
 ```latex
 \citet xxx
 ```

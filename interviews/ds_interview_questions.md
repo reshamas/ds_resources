@@ -19,6 +19,10 @@
 
 - [How to Answer the 31 Most Common Interview Questions](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions)
 
+- [Data Analytics Interview Questions (Beginner to Advanced)](https://www.appliedaicourse.com/blog/data-analytics-interview-questions/)
+
+- [Top 100+ Data Science Interview Questions and Answers](https://www.appliedaicourse.com/blog/data-science-interview-questions/)
+
 ## Product Manager
 - [Acing Your Product Manager Interview](https://hackernoon.com/acing-your-product-manager-interview-e4f163408cef)
 
